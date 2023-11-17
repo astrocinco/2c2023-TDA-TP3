@@ -1,5 +1,6 @@
-import setup as g
-
+import setup as s
+ARCHIVO_PRUEBA = "./datos/datos_prueba/20.txt"
+N_MINIMO = 5
 #### FUNCIONES AUXILIARES #####
 
 def remover_lista(original : list, remover):
@@ -92,8 +93,8 @@ def rec_BT(n : int, jugadores : dict, convocados  : list = [], faltantes : list 
 
 ### TESTING ###
     
-jugadores, periodistas = g.crear_diccionario_jugadores("TP3/100.txt")      
-#convocados = llamar_BT(9,jugadores,periodistas)
-convocados = ["Barcon't", 'Armani', 'Gallardo', 'Langoni', 'El fantasma de la B', 'Soule', 'Wachoffisde Abila', 'Messi', 'Changuito Zeballos']
-#print(convocados)
+jugadores, periodistas = s.crear_diccionario_jugadores(ARCHIVO_PRUEBA)      
+convocados = llamar_BT(N_MINIMO,jugadores,periodistas)
+#convocados = ["Barcon't", 'Armani', 'Gallardo', 'Langoni', 'El fantasma de la B', 'Soule', 'Wachoffisde Abila', 'Messi', 'Changuito Zeballos']
+print(convocados)
 print(chequear_solucion(jugadores, periodistas, convocados))
