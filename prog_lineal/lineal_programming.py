@@ -38,30 +38,10 @@ def solution_by_lineal_programming(problem_data):
         preferences_list = dict_in_problem_variables[journalist]
         problem += pulp.LpAffineExpression([(preferences_list[i], 1) for i in range(len(preferences_list))]) >= 1
 
+    problem += pulp.LpAffineExpression([(problem_player_variables[i], 1) for i in range(len(problem_player_variables))])
     problem.solve()
     return list(map(lambda player: (player.name, pulp.value(player)), problem_player_variables))
 
 
 if __name__ == "__main__":
     print("Solution:", map_file_and_solve_by_lp("datos/sets_catedra/5.txt")) 
-
-
-#def map_variables_from_dict(subsets):
-
-
-
-""" def ejemplo():
-    x = pulp.LpVariable("x")
-    y = pulp.LpVariable("y")
-    problem = pulp.LpProblem("products", pulp.LpMaximize)
-    problem += 3 * x - y <= 0
-    problem += x + 2 * y <= 14
-    problem += x - y <= 2
-    problem += 5 * x + 3 * y
-    problem.solve()
-    return pulp.value(x), pulp.value(y)
-
-
-if __name__ == "__main__":
-    x, y = ejemplo()
-    print(x, y) """
