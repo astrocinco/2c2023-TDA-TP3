@@ -9,8 +9,9 @@ def map_txt(file_path):
     with open(file_path) as file:
         contador = 0
         for line in file:
-            print (line)
-            player_list = line.split(",")[:-1]
+            line = line.replace(" ", "")
+            line = line.replace("'", "")
+            player_list = line[:-1].split(",")
             all_preferences["journalist" + str(contador)] = player_list
             for player in player_list:
                 if player not in all_players:
