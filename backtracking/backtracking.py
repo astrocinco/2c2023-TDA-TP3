@@ -1,139 +1,104 @@
 import setup as s
+import time
 
-ARCHIVO_PRUEBA = "./datos/datos_prueba/75.txt"
+ARCHIVO_PRUEBA = "./datos/prueba1/20.txt"
 N_MINIMO = 2
-#### FUNCIONES AUXILIARES #####
-
-def remover_lista(original : list, remover):
-    removidos=[]
-    for f in remover:
-        if f in original:
-            original.pop(original.index(f))
-            removidos.append(f)
-    return removidos
-
-def añadir_periodistas(original : list, añadir):
-    for f in añadir:
-        if not f in original:
-            original.append(f)
-
-def quitar_jugadores(jugadores : dict, jugador):
-    aux = jugadores.copy()
-    for j in jugadores:
-        if j == jugador:
-            return aux
-        del aux[j]
-        
-
-def es_solucion_posible(jugadores_restantes, faltantes):
-    posibles = set()
-    for j in jugadores_restantes:
-        for i in jugadores_restantes[j]:
-            posibles.add(i)
-
-    for f in faltantes:
-        if not f in posibles:
-            return False
-    return True
-
-def contiene_faltante(jugador, faltantes):
-    for f in faltantes:
-        if f in jugador:
-            return True
-    return False
-
             
-def chequear_solucion(jugadores : dict, periodistas : list, convocados : list):   
-    for j in convocados:
-        for p in jugadores[j]:
-            if p in periodistas:
-                periodistas.remove(p)
+def chequear_solucion(periodistas : dict, convocados : list):   
+    aux = set()
+    for convocado in convocados:
+        for periodista in periodistas.keys():
+            if convocado in periodistas[periodista]:
+                aux.add(periodista)
     
-    return len(periodistas) == 0
-
-###########################################################
+    return len(aux) == len(periodistas.keys())
 
 
-
-#### SOLUCION ####    
-
-def llamar_BT(n : int, jugadores : dict, periodistas : list):
-    faltantes = periodistas.copy()
-    aux = jugadores.copy()
-    convocados = []
-    for i in jugadores:
-        if rec_BT(n, aux, convocados, faltantes):
-            return convocados
-        aux.pop(i)
-    
-    return convocados
-
-def rec_BT(n : int, jugadores : dict, convocados  : list = [], faltantes : list = []):
-
-    for jugador in jugadores:
-        #no me falta cubrir ningun subconjunto, convocados será solucion
-        if len(faltantes) == 0:
-            return True
-        #alcance los n convocados pero aun quedan periodistas sin satisfacer
-        if len(convocados)==n:
-            return False
-        aux = quitar_jugadores(jugadores, jugador)
-
-        if contiene_faltante(jugadores[jugador], faltantes) and es_solucion_posible(aux,faltantes):
-            del aux[jugador] #detalle de implementacion
-            convocados.append(jugador)
-            removidos = remover_lista(faltantes,jugadores[jugador])
-            if rec_BT(n,aux,convocados,faltantes): return True
-            #Si no encuentro solución por este lado, vuelvo atrás
-            añadir_periodistas(faltantes,removidos)
-            convocados.pop(convocados.index(jugador))
-
-    return False
-
-def cantidad_minima(jugadores : dict,periodistas : list):
-    n_actual = len(jugadores.keys())
+def cantidad_minima(periodistas : dict):
+    n_actual = len(periodistas.keys())
     n_anterior = 0
     minimo_n = 0
     ultimo_nulo = 0
+    paro = 10
 
-    while True:
-        if ultimo_nulo != 0 and minimo_n != 0:
-            if abs(ultimo_nulo - minimo_n) <= 1:
-                return minimo_n
-
-        resultado = llamar_BT(n_actual, jugadores, periodistas)
+    while paro > 1:
+        posibles = []
+        hay_solucion = BT_recursivo(periodistas,posibles,n_actual)
         aux_n = n_actual
-        
-        if len(resultado) != 0:
+
+
+        if hay_solucion == True:
             minimo_n = n_actual
-            if n_anterior < minimo_n:
-                n_actual = (n_anterior+n_actual)//2  
+            #con el n que probó antes no habia encontrado solucion y con este sí
+            if n_anterior < minimo_n: n_actual = (n_anterior+n_actual)//2  
+            
+            #con el anterior habia solucion y con este tambien
             else:
-                if ultimo_nulo != 0:
-                    n_actual = ultimo_nulo+1
-                else:
-                    n_actual = n_actual//2
-            n_anterior = aux_n        
+                if ultimo_nulo != 0: n_actual = ultimo_nulo+1
+                else: n_actual = n_actual//2
+            
+            n_anterior = aux_n
+            convocados = posibles        
             
         else:
             ultimo_nulo = n_actual
+            #con el anterior no habia solucion y con este tampoco
             if minimo_n == 0 or n_anterior < minimo_n:
-                if minimo_n > 0:
-                    n_actual = minimo_n - 1
-                else: 
-                    n_actual = n_actual * 2  
-            else:
-                n_actual = (n_anterior+n_actual)//2
-             
+                if minimo_n > 0: n_actual = minimo_n - 1
+                else: n_actual = n_actual * 2  
+            #con el anterior habia solucion y con este no
+            else: n_actual = (n_anterior+n_actual)//2         
         n_anterior = aux_n
         
+        if ultimo_nulo != 0 and minimo_n != 0: paro = abs(ultimo_nulo - minimo_n)
+
+    return minimo_n,convocados
+
+
+######### SEGUNDA IDEA ##############
+
+def BT_recursivo(periodistas:dict, convocados:list = [], n_minimo = 100):
+
+    if len(periodistas.keys()) == 0: return True
+    if len(convocados) == n_minimo: return False
+    
+    eliminados = {}
+    siguiente = next(iter(periodistas.items()))
+    aux = periodistas.copy()
+    
+    for jugador in siguiente[1]:
+        convocados.append(jugador)
+        for periodista in periodistas:
+            if jugador in periodistas[periodista]: eliminados[periodista] = aux.pop(periodista)
+
+        if BT_recursivo(aux, convocados, n_minimo): return True
+        
+        #si no es solucion, vuelvo para atras
+        convocados.remove(jugador)
+        devolver_periodistas(aux,eliminados)   
+    return False
+        
+def devolver_periodistas(periodistas:dict, eliminados:dict):
+    for e in eliminados.keys():
+        periodistas[e] = eliminados[e]
+    s.ordenar_diccionario(periodistas)
+    return periodistas
+
+
 
 ### TESTING ###
     
 #jugadores, periodistas = s.crear_diccionario_jugadores(ARCHIVO_PRUEBA)      
 #n_minimo = cantidad_minima(jugadores, periodistas)
-#convocados = llamar_BT(2,jugadores, periodistas)
+#convocados = llamar_BT(3,jugadores, periodistas)
 #convocados = ["Barcon't", 'Armani', 'Gallardo', 'Langoni', 'El fantasma de la B', 'Soule', 'Wachoffisde Abila', 'Messi', 'Changuito Zeballos']
 #print(f"cantidad minima = {n_minimo}")
+#print(convocados)
 
 #print(chequear_solucion(jugadores, periodistas, convocados))
+periodistas = s.crear_diccionario_periodistas(ARCHIVO_PRUEBA)
+minimo, convocados = cantidad_minima(periodistas)
+#print(BT_recursivo(periodistas,convocados=convocados, n_minimo=9))
+#convocados = ['Mauro Zarate', 'Gallardo', "Barcon't", 'Chiquito Romero', 'Pity Martinez', 'Beltran', 'Soule', 'Palermo','Changuito Zeballos'] 
+print(chequear_solucion(periodistas,convocados))
+print(f"el minimo es {minimo} y los convocados son {convocados}")
