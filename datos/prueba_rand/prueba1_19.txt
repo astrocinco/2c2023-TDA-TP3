@@ -1,0 +1,19 @@
+Casco,Luka Romero,Di Maria,Buendia,Changuito Zeballos
+Di Maria,Colo Barco,Cuti Romero,El fantasma de la B,Chiquito Romero,Armani
+Mauro Zarate,Di Maria,Colo Barco,El fantasma de la B,Chiquito Romero,Changuito Zeballos,Wachoffisde Abila,Ogro Fabianni
+Luka Romero,Di Maria,Colo Barco,Cuti Romero,El fantasma de la B,Buendia,Dibu,Wachoffisde Abila,Dybala
+Luka Romero,Di Maria,Colo Barco,Cuti Romero,El fantasma de la B,Dibu,Chiquito Romero,Armani,Ogro Fabianni,Dybala
+
+Langoni,Colo Barco,Messi,Cuti Romero,El fantasma de la B,Changuito Zeballos,Ogro Fabianni
+Buendia,Di Maria,Colo Barco,Cuti Romero,Messi,El fantasma de la B,Changuito Zeballos,Armani,Dybala
+Luka Romero,Casco,Buendia,Colo Barco,Cuti Romero,Messi,El fantasma de la B,Dibu,Chiquito Romero,Changuito Zeballos,Wachoffisde Abila
+Wachoffisde Abila,Luka Romero,Pity Martinez
+Mauro Zarate,Langoni,Luka Romero,Chiquito Romero,Changuito Zeballos
+Casco,Chiquito Romero,Changuito Zeballos,El fantasma de la B
+Langoni,Cuti Romero,Messi,El fantasma de la B,Chiquito Romero,Changuito Zeballos,Pity Martinez
+Luka Romero,Casco,Buendia,Colo Barco,Cuti Romero,Dibu,Changuito Zeballos,Pity Martinez,Dybala,Ogro Fabianni
+Mauro Zarate,Casco,Cuti Romero,Dibu,Changuito Zeballos,Armani,Ogro Fabianni
+Casco,Buendia,Di Maria,Messi,El fantasma de la B,Changuito Zeballos,Dybala
+
+Armani,Cuti Romero,Langoni
+Colo Barco,Messi

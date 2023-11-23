@@ -1,16 +1,16 @@
-Palermo,Langoni,Riquelme,Beltran,Changuito Zeballos,Buonanotte,Tucu Pereyra,Dibu,Barcon't,Di Maria,Simeone
-Chiquito Romero,Tucu Pereyra
-Palermo,Riquelme,Changuito Zeballos,Tucu Pereyra,Armani,Di Maria,Simeone
-Chiquito Romero,Langoni,Riquelme,Beltran,Changuito Zeballos,Buonanotte,Tucu Pereyra,Armani
-Langoni,Buonanotte,Beltran
-Barcon't,Chiquito Romero,Changuito Zeballos
-Langoni,Buonanotte,Tucu Pereyra,Dibu,Simeone
-Chiquito Romero,Langoni,Riquelme,Buonanotte,Dibu,Barcon't,Armani,Di Maria,Simeone
+Luka Romero,Di Maria,El fantasma de la B,Palermo,Simeone,Ogro Fabianni
+Casco,Luka Romero,Messi,Palermo,Simeone
+Luka Romero,El fantasma de la B
+Luka Romero
+Changuito Zeballos
+Palermo,Luka Romero,Changuito Zeballos,Simeone
+Di Maria
+Casco,Di Maria,Messi,El fantasma de la B,Buonanotte,Palermo,Ogro Fabianni
+Palermo
+Soule,Casco,Luka Romero,Di Maria,Palermo,Simeone
+Di Maria,Buonanotte,Ogro Fabianni
+Soule,Casco,Luka Romero,Palermo,Buonanotte,Changuito Zeballos,Ogro Fabianni
 
-Barcon't,Chiquito Romero,Simeone
-Chiquito Romero,Langoni,Riquelme,Beltran,Buonanotte,Tucu Pereyra,Dibu,Barcon't,Armani,Simeone
-Barcon't,Buonanotte,Tucu Pereyra
-Palermo,Chiquito Romero,Riquelme,Beltran,Buonanotte,Armani,Di Maria
-Palermo,Riquelme,Changuito Zeballos,Buonanotte,Tucu Pereyra,Dibu,Di Maria
-Chiquito Romero,Langoni,Buonanotte,Armani,Di Maria,Simeone
-Riquelme,Di Maria,Dibu
+Simeone,Buonanotte,Di Maria
+Soule,Luka Romero,Di Maria,Palermo,Simeone
+Buonanotte,Messi

@@ -1,0 +1,7 @@
+Buendia,Langoni,Palermo,Barcon't,Armani,Pity Martinez
+Wachoffisde Abila,Chiquito Romero,Changuito Zeballos,Pity Martinez
+Tucu Pereyra,Langoni,Barcon't,Changuito Zeballos,Ogro Fabianni
+Luka Romero,Langoni,Changuito Zeballos,Tucu Pereyra,Pity Martinez
+Colo Barco,Barcon't,Chiquito Romero,Changuito Zeballos,Pity Martinez
+Langoni,Colo Barco,Barcon't,Chiquito Romero,Changuito Zeballos,Wachoffisde Abila,Armani,Pity Martinez,Ogro Fabianni
+Tucu Pereyra,Colo Barco,Buendia,Changuito Zeballos,Wachoffisde Abila,Armani,Ogro Fabianni

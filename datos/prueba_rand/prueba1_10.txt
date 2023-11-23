@@ -1,10 +1,10 @@
-El fantasma de la B,Tucu Pereyra
-Tucu Pereyra,Changuito Zeballos
-Colo Barco,Tucu Pereyra
-
-Tucu Pereyra
-El fantasma de la B
-Tucu Pereyra,El fantasma de la B,Changuito Zeballos
-Langoni
-Changuito Zeballos
-Langoni
+Mauro Zarate,Casco,Langoni,El fantasma de la B,Armani
+Mauro Zarate,Tucu Pereyra,Di Maria,Cuti Romero,El fantasma de la B,Dibu,Beltran,Armani
+Mauro Zarate,Casco,Langoni,Di Maria,Changuito Zeballos,Wachoffisde Abila,Armani
+Wachoffisde Abila,Colidio,Mauro Zarate
+Cuti Romero,Di Maria
+Wachoffisde Abila,Casco,Langoni,Changuito Zeballos
+Mauro Zarate,Pezzella,Di Maria,Cuti Romero,Colidio,Dibu
+Pezzella,Langoni,El fantasma de la B
+Mauro Zarate,Pezzella,Di Maria,El fantasma de la B,Dibu,Changuito Zeballos,Beltran,Wachoffisde Abila
+Mauro Zarate,Dibu,Tucu Pereyra,Colidio

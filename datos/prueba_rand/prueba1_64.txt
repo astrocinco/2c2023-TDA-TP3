@@ -1,0 +1,64 @@
+Palermo
+Palermo,Zapelli
+Zapelli,Di Maria
+
+Pezzella,Zapelli,Colo Barco,Buonanotte,Chiquito Romero
+Dibu,Di Maria
+Pezzella,Dibu
+Zapelli,Di Maria,Dibu,Palermo,Chiquito Romero
+Pezzella,Di Maria,Colo Barco,Palermo,Chiquito Romero
+Zapelli,Colo Barco,Palermo,Dibu,Chiquito Romero
+Colo Barco,Pezzella,Buonanotte,Zapelli
+
+Zapelli,Colo Barco,Buonanotte,Palermo,Dibu,Chiquito Romero
+
+Pezzella,Colo Barco,Buonanotte,Palermo,Chiquito Romero
+Colo Barco,Buonanotte,Chiquito Romero,Palermo
+Colo Barco,Zapelli
+Palermo,Zapelli
+Zapelli,Di Maria,Colo Barco,Buonanotte,Palermo,Chiquito Romero
+Colo Barco,Palermo,Zapelli
+Buonanotte,Dibu,Chiquito Romero,Di Maria
+Pezzella,Di Maria,Colo Barco,Palermo,Buonanotte
+Palermo
+Pezzella,Di Maria,Colo Barco,Palermo,Dibu,Buonanotte
+Pezzella,Di Maria,Dibu,Buonanotte,Chiquito Romero
+Colo Barco,Buonanotte,Zapelli
+Pezzella,Buonanotte,Dibu,Di Maria
+Pezzella,Zapelli,Buonanotte,Palermo,Chiquito Romero
+Pezzella,Palermo,Zapelli,Chiquito Romero
+Buonanotte,Zapelli,Chiquito Romero,Di Maria
+Pezzella,Di Maria,Colo Barco,Dibu,Buonanotte
+Dibu,Palermo
+Pezzella,Palermo,Dibu,Chiquito Romero
+Zapelli,Dibu,Buonanotte,Palermo,Chiquito Romero
+Buonanotte,Dibu
+
+Zapelli,Buonanotte,Dibu,Palermo
+Zapelli,Colo Barco,Buonanotte,Palermo,Chiquito Romero
+
+Colo Barco,Pezzella,Buonanotte,Di Maria
+Pezzella,Zapelli,Colo Barco,Palermo,Buonanotte
+Pezzella,Palermo,Dibu
+Dibu,Zapelli
+Pezzella,Buonanotte,Zapelli,Chiquito Romero
+Pezzella,Di Maria,Dibu,Buonanotte,Chiquito Romero
+Colo Barco,Buonanotte
+
+Pezzella,Dibu,Palermo,Buonanotte
+Di Maria
+Pezzella,Palermo,Dibu
+Pezzella,Di Maria,Colo Barco,Palermo,Buonanotte
+Pezzella,Chiquito Romero
+Colo Barco,Dibu,Palermo
+Colo Barco,Buonanotte,Chiquito Romero,Di Maria
+Pezzella,Buonanotte,Chiquito Romero,Palermo
+Colo Barco,Palermo,Dibu,Chiquito Romero
+Di Maria
+Pezzella,Palermo,Dibu,Zapelli
+
+Pezzella,Zapelli,Colo Barco,Dibu,Chiquito Romero
+Pezzella
+Dibu,Chiquito Romero
+Pezzella,Chiquito Romero,Di Maria
+Pezzella,Dibu

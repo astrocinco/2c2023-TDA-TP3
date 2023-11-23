@@ -1,0 +1,100 @@
+Soule,Pezzella,Tucu Pereyra,Buendia,Riquelme,Pity Martinez
+Dibu,Pity Martinez
+Soule,Dibu,Palermo
+Soule,Riquelme,Dibu,Pity Martinez
+Pezzella,Riquelme,Dibu,Tucu Pereyra
+Pezzella,Palermo
+Soule,Riquelme,Buendia,Palermo
+Pezzella,Dibu,Buendia,Pity Martinez
+Soule,Riquelme,Dibu,Tucu Pereyra
+Pezzella,Tucu Pereyra,Buendia,Palermo,Dibu
+Soule,Riquelme,Buendia,Tucu Pereyra
+Buendia,Riquelme,Pity Martinez
+Pity Martinez
+Soule,Dibu,Buendia,Pity Martinez
+Dibu,Tucu Pereyra,Palermo,Pity Martinez
+
+Buendia
+Soule,Tucu Pereyra,Dibu,Riquelme,Pity Martinez
+Soule,Tucu Pereyra
+Soule,Pezzella,Tucu Pereyra,Pity Martinez
+Soule,Buendia,Tucu Pereyra
+Pezzella
+Pezzella,Palermo,Buendia,Tucu Pereyra
+Tucu Pereyra
+
+Soule,Palermo,Tucu Pereyra,Pity Martinez
+Soule,Riquelme,Dibu
+Tucu Pereyra,Buendia,Palermo,Riquelme,Pity Martinez
+Riquelme,Palermo
+
+Buendia,Tucu Pereyra,Dibu,Pity Martinez
+Soule,Pezzella,Tucu Pereyra,Palermo,Buendia,Riquelme
+Riquelme,Buendia
+Soule,Pezzella,Tucu Pereyra
+Soule,Pezzella,Palermo
+
+Pezzella
+Soule,Buendia,Pity Martinez
+Pezzella,Dibu,Tucu Pereyra,Buendia
+Pezzella,Pity Martinez
+Soule,Pezzella,Tucu Pereyra,Buendia,Pity Martinez
+Dibu,Tucu Pereyra,Pity Martinez
+Riquelme,Dibu,Palermo
+Buendia
+
+Pezzella,Tucu Pereyra,Dibu,Riquelme,Pity Martinez
+Tucu Pereyra
+Riquelme,Dibu,Tucu Pereyra,Pity Martinez
+Pezzella,Riquelme,Buendia
+Soule,Riquelme,Dibu,Tucu Pereyra
+Soule,Tucu Pereyra,Pity Martinez
+Riquelme,Tucu Pereyra,Pity Martinez
+Pezzella,Tucu Pereyra
+Pezzella,Riquelme,Tucu Pereyra,Buendia
+Pezzella,Palermo,Buendia,Pity Martinez
+Pezzella,Palermo
+Soule,Riquelme,Buendia
+Riquelme,Dibu,Pity Martinez
+Soule,Riquelme
+Pezzella,Tucu Pereyra,Dibu,Palermo,Riquelme
+Pezzella,Buendia,Pity Martinez
+Dibu,Tucu Pereyra,Pity Martinez
+Riquelme,Tucu Pereyra,Dibu,Buendia
+Riquelme,Buendia,Palermo
+Soule,Dibu
+Riquelme,Palermo,Dibu,Tucu Pereyra
+Soule,Pezzella,Dibu,Buendia
+Soule,Palermo,Tucu Pereyra,Buendia
+Soule,Pezzella,Tucu Pereyra,Buendia,Palermo
+Riquelme
+Palermo
+Soule,Pezzella,Dibu
+Buendia,Dibu,Pity Martinez
+Soule,Pezzella,Riquelme,Palermo
+Soule,Pezzella,Tucu Pereyra,Buendia,Pity Martinez
+Pezzella,Tucu Pereyra,Palermo,Riquelme,Pity Martinez
+Pezzella
+Pezzella,Dibu,Riquelme,Pity Martinez
+Soule,Pezzella,Tucu Pereyra,Dibu,Palermo,Riquelme
+Buendia
+Palermo,Buendia
+Soule,Pezzella,Dibu,Palermo,Pity Martinez
+Riquelme
+Pezzella,Buendia,Dibu,Riquelme,Pity Martinez
+
+Pezzella,Dibu,Buendia
+Palermo,Buendia
+Pezzella,Dibu,Tucu Pereyra
+Pezzella,Dibu,Palermo
+Palermo,Buendia,Pity Martinez
+Soule,Pezzella,Palermo,Riquelme
+Pezzella,Riquelme,Buendia
+Pezzella,Palermo,Tucu Pereyra,Buendia
+Soule,Tucu Pereyra,Pity Martinez
+Soule,Pezzella,Riquelme,Palermo
+Soule,Riquelme,Dibu,Tucu Pereyra
+
+Tucu Pereyra
+Riquelme,Tucu Pereyra,Pity Martinez
+Soule,Tucu Pereyra,Buendia,Pity Martinez
