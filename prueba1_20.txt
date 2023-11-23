@@ -1,0 +1,20 @@
+Soule,Mauro Zarate,Dibu
+Palermo,Soule,Dibu
+Palermo
+Colo Barco,Mauro Zarate
+Colo Barco,Mauro Zarate
+Colo Barco,Palermo,Mauro Zarate
+Colo Barco,Palermo,Soule
+Colo Barco,Mauro Zarate,Dibu
+Colo Barco,Mauro Zarate,Dibu
+
+Colo Barco,Tucu Pereyra,Mauro Zarate
+Palermo,Tucu Pereyra
+Colo Barco,Dibu
+Soule
+Colo Barco,Tucu Pereyra,Mauro Zarate
+Dibu
+Dibu
+Colo Barco,Palermo,Soule,Dibu
+Colo Barco,Mauro Zarate,Tucu Pereyra,Soule
+Palermo,Mauro Zarate,Dibu

@@ -1,0 +1,16 @@
+Palermo,Langoni,Riquelme,Beltran,Changuito Zeballos,Buonanotte,Tucu Pereyra,Dibu,Barcon't,Di Maria,Simeone
+Chiquito Romero,Tucu Pereyra
+Palermo,Riquelme,Changuito Zeballos,Tucu Pereyra,Armani,Di Maria,Simeone
+Chiquito Romero,Langoni,Riquelme,Beltran,Changuito Zeballos,Buonanotte,Tucu Pereyra,Armani
+Langoni,Buonanotte,Beltran
+Barcon't,Chiquito Romero,Changuito Zeballos
+Langoni,Buonanotte,Tucu Pereyra,Dibu,Simeone
+Chiquito Romero,Langoni,Riquelme,Buonanotte,Dibu,Barcon't,Armani,Di Maria,Simeone
+
+Barcon't,Chiquito Romero,Simeone
+Chiquito Romero,Langoni,Riquelme,Beltran,Buonanotte,Tucu Pereyra,Dibu,Barcon't,Armani,Simeone
+Barcon't,Buonanotte,Tucu Pereyra
+Palermo,Chiquito Romero,Riquelme,Beltran,Buonanotte,Armani,Di Maria
+Palermo,Riquelme,Changuito Zeballos,Buonanotte,Tucu Pereyra,Dibu,Di Maria
+Chiquito Romero,Langoni,Buonanotte,Armani,Di Maria,Simeone
+Riquelme,Di Maria,Dibu
