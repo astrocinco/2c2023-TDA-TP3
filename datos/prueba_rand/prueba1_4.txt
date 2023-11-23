@@ -1,4 +1,4 @@
-Palermo,Tucu Pereyra,Pity Martinez
-Cuti Romero,Beltran
-Pezzella,Tucu Pereyra,Beltran
-Tucu Pereyra
+Buendia,El fantasma de la B,Barcon't,Langoni,Colo Barco,Dybala,Beltran,Buonanotte,Di Maria,Chiquito Romero,Colidio,Luka Romero
+Burrito Ortega,Barcon't,Soule,Simeone,Langoni,Tucu Pereyra,Dybala,Buendia,Beltran,Buonanotte,Riquelme,Changuito Zeballos,Gallardo,Mauro Zarate,Chiquito Romero,Cuti Romero,Luka Romero
+Buendia,Tucu Pereyra,Palermo,Burrito Ortega,Soule,Armani,Wachoffisde Abila,Di Maria,Cuti Romero,Riquelme,Mauro Zarate,Barcon't,Langoni,Dybala,Changuito Zeballos,Dibu,Gallardo,Pity Martinez,Casco
+Barcon't,Soule,Langoni,Tucu Pereyra,Buonanotte,Ogro Fabianni,Dibu,Riquelme,Di Maria,Colidio,Cuti Romero,Mauro Zarate,Chiquito Romero,Pity Martinez,Casco

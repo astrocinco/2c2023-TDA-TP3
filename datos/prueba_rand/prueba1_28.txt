@@ -1,28 +1,28 @@
-Soule,Palermo,Buonanotte,Chiquito Romero,Changuito Zeballos,Simeone,Wachoffisde Abila
-Soule,Casco,Zapelli,Buendia,Di Maria,Pezzella,Colidio,El fantasma de la B,Palermo,Buonanotte,Dibu,Barcon't,Chiquito Romero,Simeone,Beltran,Riquelme,Armani,Pity Martinez
-Luka Romero,Pezzella,Zapelli,Buendia,Di Maria,Colo Barco,Gallardo,Palermo,Barcon't,Simeone,Chiquito Romero,Changuito Zeballos,Beltran,Wachoffisde Abila,Riquelme,Pity Martinez,Ogro Fabianni
-Casco,Luka Romero,Colo Barco,Colidio,El fantasma de la B,Buonanotte,Chiquito Romero,Beltran,Wachoffisde Abila,Armani,Pity Martinez,Ogro Fabianni
-Casco,Luka Romero,Gallardo,Messi,El fantasma de la B,Buonanotte,Barcon't,Chiquito Romero,Wachoffisde Abila,Riquelme,Armani
-Pezzella,Zapelli,Di Maria,Messi,El fantasma de la B,Casco,Dibu,Buonanotte,Barcon't,Chiquito Romero,Beltran,Wachoffisde Abila,Ogro Fabianni
-Soule,Pezzella,El fantasma de la B,Palermo,Buonanotte,Barcon't,Chiquito Romero,Zapelli,Di Maria,Colo Barco,Cuti Romero,Armani,Pity Martinez,Ogro Fabianni,Casco,Luka Romero,Gallardo,Colidio,Beltran
-Soule,Zapelli,Di Maria,Colo Barco,Cuti Romero,Colidio,El fantasma de la B,Palermo,Buonanotte,Barcon't,Changuito Zeballos,Chiquito Romero,Beltran,Simeone,Wachoffisde Abila,Riquelme,Armani,Pity Martinez
-Changuito Zeballos
-Pezzella,Buendia,Gallardo,Buonanotte,Ogro Fabianni
-Soule,Cuti Romero,El fantasma de la B,Buonanotte,Beltran,Armani,Ogro Fabianni
-Pezzella,Zapelli,Cuti Romero,Colidio,El fantasma de la B,Wachoffisde Abila,Pity Martinez
-Pezzella,Messi,Buonanotte,Barcon't,Chiquito Romero,Zapelli,Buendia,Di Maria,Colo Barco,Cuti Romero,Dibu,Armani,Pity Martinez,Ogro Fabianni,Casco,Gallardo,Colidio,Beltran,Riquelme
-Zapelli,Colidio,El fantasma de la B,Palermo,Barcon't,Chiquito Romero,Beltran,Simeone,Armani,Pity Martinez,Ogro Fabianni
-Soule,Casco,Pezzella,El fantasma de la B,Buonanotte,Barcon't,Pity Martinez
-Soule,Pezzella,Zapelli,Luka Romero,Cuti Romero,Messi,Colidio,El fantasma de la B,Buonanotte,Barcon't,Beltran,Pity Martinez
-Colo Barco,Cuti Romero,Messi,El fantasma de la B,Dibu,Chiquito Romero,Changuito Zeballos,Wachoffisde Abila,Riquelme,Armani,Pity Martinez
-Luka Romero,Pezzella,Zapelli,Buendia,Colidio,El fantasma de la B,Buonanotte,Palermo,Barcon't,Chiquito Romero,Beltran,Soule,Armani,Pity Martinez,Ogro Fabianni
-Soule,Casco,Zapelli,Buendia,Pezzella,Messi,Colidio,El fantasma de la B,Palermo,Dibu,Changuito Zeballos,Beltran,Riquelme,Armani,Pity Martinez,Ogro Fabianni
-Soule,Luka Romero,Dibu,Buonanotte,Barcon't,Simeone,Ogro Fabianni
-Casco,Zapelli,Di Maria,Colidio,Dibu,Buonanotte,Chiquito Romero,Changuito Zeballos,Beltran,Wachoffisde Abila,Armani,Pity Martinez
-Soule,Casco,Zapelli,Luka Romero,El fantasma de la B,Palermo,Barcon't,Chiquito Romero,Changuito Zeballos,Wachoffisde Abila,Armani,Ogro Fabianni
-Pezzella,Zapelli,Di Maria,Colo Barco,Messi,Palermo,Beltran,Riquelme,Armani,Pity Martinez,Ogro Fabianni
-Soule,Casco,Zapelli,Buendia,Di Maria,Colo Barco,Gallardo,Cuti Romero,Colidio,Buonanotte,Dibu,Chiquito Romero,Beltran,Simeone,Riquelme,Armani,Pity Martinez
-Casco,Zapelli,Luka Romero,Di Maria,Messi,Colidio,El fantasma de la B,Buendia,Buonanotte,Barcon't,Chiquito Romero,Simeone,Pity Martinez
-Soule,Zapelli,Luka Romero,Di Maria,Colo Barco,Messi,El fantasma de la B,Dibu,Buonanotte,Barcon't,Chiquito Romero,Wachoffisde Abila,Riquelme,Armani,Pity Martinez,Ogro Fabianni
-Wachoffisde Abila,Gallardo,Barcon't,Luka Romero
-Soule,Casco,Zapelli,Luka Romero,Colo Barco,Messi,Colidio,Dibu,Buonanotte,Barcon't,Chiquito Romero,Changuito Zeballos,Beltran,Armani,Pity Martinez,Ogro Fabianni
+Pity Martinez,Casco
+Casco
+Colidio,Casco
+El fantasma de la B,Colidio
+Colidio,Pity Martinez
+Colidio,Pity Martinez,Casco
+Colidio,Pity Martinez
+Colidio,Pity Martinez,Casco
+El fantasma de la B
+Pity Martinez,Casco
+El fantasma de la B
+Colidio
+Colidio
+Pity Martinez,Casco
+El fantasma de la B
+Pity Martinez,Casco
+El fantasma de la B,Pity Martinez
+El fantasma de la B,Colidio,Pity Martinez
+Colidio,Pity Martinez,Casco
+Pity Martinez,Casco
+El fantasma de la B,Colidio,Casco
+El fantasma de la B,Colidio
+Pity Martinez,Casco
+Casco
+Colidio,Pity Martinez,Casco
+Pity Martinez
+Casco
+El fantasma de la B

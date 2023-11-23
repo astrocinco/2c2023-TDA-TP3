@@ -1,22 +1,22 @@
-Mauro Zarate,Casco,Zapelli,Luka Romero,Di Maria,Colidio,El fantasma de la B,Palermo,Buonanotte,Barcon't,Chiquito Romero,Changuito Zeballos,Ogro Fabianni
-Casco,Langoni,Messi,Buonanotte,Barcon't,Pity Martinez
-Zapelli,Pity Martinez,Changuito Zeballos,Ogro Fabianni
-Mauro Zarate,Zapelli,Langoni,Di Maria,El fantasma de la B,Chiquito Romero,Changuito Zeballos,Beltran,Tucu Pereyra,Pity Martinez
-Tucu Pereyra
-Mauro Zarate,Pezzella,Zapelli,Luka Romero,Buonanotte,Barcon't,Beltran,Simeone,Armani,Pity Martinez
-Pezzella,Tucu Pereyra,Langoni,Chiquito Romero,Changuito Zeballos,Pity Martinez
-Mauro Zarate,Tucu Pereyra,Messi,El fantasma de la B,Palermo,Barcon't,Chiquito Romero,Beltran,Armani,Pity Martinez,Ogro Fabianni
-Mauro Zarate,Zapelli,Langoni,Colidio,Buonanotte,Barcon't,Chiquito Romero,Armani,Pity Martinez,Ogro Fabianni
-Mauro Zarate,Pezzella
-Mauro Zarate,Zapelli,Langoni,Buonanotte,Barcon't,Armani
-Barcon't,Ogro Fabianni
-Mauro Zarate,Pezzella,Zapelli,Langoni,Messi,Colidio,El fantasma de la B,Casco,Palermo,Barcon't,Simeone,Tucu Pereyra,Armani,Pity Martinez
-Mauro Zarate,Casco,Tucu Pereyra,Palermo,Barcon't,Chiquito Romero,Changuito Zeballos,Simeone,Armani,Ogro Fabianni
-Tucu Pereyra,Buonanotte,Barcon't,Chiquito Romero,Beltran
-Mauro Zarate,Pezzella,Zapelli,Luka Romero,Di Maria,Langoni,Barcon't,Chiquito Romero,Beltran,Simeone,Tucu Pereyra,Pity Martinez,Ogro Fabianni
-Buonanotte,Zapelli,Simeone
-Mauro Zarate,Pezzella,Tucu Pereyra,Pity Martinez,Ogro Fabianni
-Zapelli,Luka Romero,Di Maria,El fantasma de la B,Buonanotte,Beltran
-Casco,Zapelli,Tucu Pereyra,Palermo,Barcon't,Chiquito Romero,Changuito Zeballos,Beltran,Armani,Pity Martinez
-Tucu Pereyra,Pity Martinez
-
+Buonanotte,Barcon't,Tucu Pereyra
+Changuito Zeballos,Cuti Romero,Luka Romero
+Dibu
+El fantasma de la B,Buonanotte,Dibu,Changuito Zeballos,Luka Romero
+El fantasma de la B,Barcon't,Langoni,Tucu Pereyra,Buonanotte,Dibu,Changuito Zeballos
+Barcon't,Tucu Pereyra,Buonanotte,Changuito Zeballos,Cuti Romero
+El fantasma de la B,Soule,Langoni,Dibu,Changuito Zeballos
+Langoni,Buonanotte,El fantasma de la B
+Barcon't,Langoni,Dibu,Changuito Zeballos,Luka Romero
+Langoni,Buonanotte,Dibu
+Langoni,Buonanotte,Tucu Pereyra,Soule
+Barcon't,Soule,Buonanotte,Changuito Zeballos,Cuti Romero
+Buonanotte,Soule
+Soule,Langoni,Tucu Pereyra,Buonanotte,Luka Romero
+Barcon't,Soule
+Langoni,Messi,Soule
+El fantasma de la B,Soule,Langoni,Buonanotte,Dibu,Cuti Romero
+Soule,Langoni,Tucu Pereyra,Buonanotte,Changuito Zeballos
+Tucu Pereyra,Buonanotte,Messi,Luka Romero
+Langoni,Buonanotte,Changuito Zeballos,Messi
+Buonanotte,Dibu,Tucu Pereyra,Luka Romero
+Buonanotte,Barcon't,Messi,Tucu Pereyra
