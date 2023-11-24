@@ -1,0 +1,104 @@
+Maidana,Buonanotte,Tucu Pereyra,Wachoffisde Abila,Colidio,Saviola,Crespo,Langoni,Simeone,Beltran,Palermo,Cuti Romero
+Mauro Zarate,Messi,Zapelli,Soule,Passarella,Gallardo,Alario,Simeone,El fantasma de la B,Dibu,Dybala
+Francescoli
+Zapelli,Dibu,Wachoffisde Abila,Changuito Zeballos,Simeone,Beltran,Aimar,Luka Romero,Boselli
+Mauro Zarate,Ogro Fabianni,Colidio,Barcon't,Chiquito Romero,Ruggeri,Saviola,Buonanotte,Beltran,Francescoli,Luka Romero,Boselli
+Rojas,Passarella,Chiquito Romero,Funes Mori,Dybala,Palermo,Luka Romero
+Cavenaghi
+Beltran
+Mauro Zarate,Passarella,Pumpido,Langoni,Carrizo,Simeone,Dibu,Beltran
+Rojas,Cuti Romero,Colidio,Langoni,Cavenaghi
+Mauro Zarate,Buonanotte,Aimar,Pezzella,Armani,Fillol,Cavenaghi,Dybala,Zapelli,Luka Romero,Boselli
+Gallardo,Colidio,Pumpido,Burrito Ortega,Cavenaghi,Changuito Zeballos,Casco,Ponzio,Colo Barco
+Rojas,Ogro Fabianni,Messi,Pezzella,Wachoffisde Abila,Dybala,Palermo
+Buonanotte,Zapelli,Tucu Pereyra,Passarella,Barcon't,Saviola,Riquelme,Dybala,Casco
+Buonanotte,Passarella,Cavenaghi,Alonso,Palermo,Luka Romero
+Passarella
+Passarella,Carrizo
+Francescoli,Buonanotte,Tucu Pereyra,Passarella,Chiquito Romero,Simeone,Langoni,Funes Mori,Dibu,Dybala,Casco,Buendia,Boselli
+Passarella,Di Maria,Ruggeri,Pumpido,Fillol,Dybala
+Mauro Zarate,Ogro Fabianni,Tucu Pereyra,Wachoffisde Abila,Chiquito Romero,Pumpido,Burrito Ortega,Funes Mori,Simeone,Alonso,Buonanotte,Beltran,Palermo,Luka Romero
+Langoni,Ponzio,Soule,Passarella,Pumpido,Riquelme,Funes Mori,Pity Martinez,Beltran,Francescoli,Maidana,Armani,Fillol,El fantasma de la B,Simeone,Luka Romero,Cuti Romero,Pezzella,Crespo,Dybala,Alonso
+Francescoli,Passarella,Gallardo,Barcon't,Ruggeri,Saviola,Cavenaghi,Changuito Zeballos,Alonso,Buendia,Ponzio,Colo Barco
+Aimar,Chiquito Romero,Saviola,Casco,Luka Romero
+Rojas,Wachoffisde Abila,Barcon't,Chiquito Romero,Ruggeri,Fillol,Changuito Zeballos,Alario,El fantasma de la B,Simeone,Pity Martinez
+Messi,Aimar,Gallardo,Burrito Ortega,Alario,Cavenaghi,Dybala,Alonso,Ponzio
+Tucu Pereyra
+Tucu Pereyra,Di Maria,Armani,Chiquito Romero,Ruggeri,Alario,Echeverri,Langoni,Fillol,Alonso
+Beltran,Fillol,Gallardo
+Zapelli,Chiquito Romero,Messi
+Passarella,Armani,Funes Mori,Changuito Zeballos,Dybala,Casco
+Barcon't,Cuti Romero,Luka Romero
+Ogro Fabianni,Langoni,Casco,Ponzio,Mauro Zarate,Rojas,Messi,Dibu,Passarella,Pumpido,Pity Martinez,Beltran,Buendia,Maidana,Francescoli,Armani,Fillol,Changuito Zeballos,Luka Romero,Buonanotte,Aimar,Di Maria,Wachoffisde Abila,Crespo,Alario,Dybala,Alonso,Colo Barco
+Messi,Di Maria,Colidio,Echeverri,Fillol
+Rojas,Ogro Fabianni,Tucu Pereyra,Dibu,Wachoffisde Abila,Chiquito Romero,Burrito Ortega,Langoni,Carrizo,Simeone,Dybala,Alonso,Casco
+Ogro Fabianni,Aimar,Passarella,Pezzella,Gallardo,Colidio,Echeverri,Dybala,Buendia,Ponzio,Boselli
+Simeone
+Maidana,Buonanotte,Burrito Ortega,Alario,El fantasma de la B,Fillol,Luka Romero
+Mauro Zarate,Ogro Fabianni,Francescoli
+Rojas,Messi,Aimar,Di Maria,Saviola,Mauro Zarate,Beltran
+Burrito Ortega,Langoni,Casco,Ponzio,Mauro Zarate,Messi,Zapelli,Dibu,Riquelme,Buendia,Francescoli,Armani,El fantasma de la B,Carrizo,Simeone,Changuito Zeballos,Luka Romero,Cuti Romero,Tucu Pereyra,Di Maria,Wachoffisde Abila,Colidio,Saviola,Crespo,Echeverri,Alonso,Boselli,Colo Barco
+Maidana,Passarella,Aimar,Soule,Gallardo,Messi,Colidio,Ruggeri,Echeverri,Fillol,Dybala,Pity Martinez,Ponzio
+Zapelli,Dibu,Riquelme,El fantasma de la B,Beltran,Luka Romero
+Langoni,Dybala
+Zapelli,Tucu Pereyra,Pezzella,Chiquito Romero,Saviola,Langoni,Fillol,Changuito Zeballos,Alonso,Luka Romero
+Mauro Zarate,Ogro Fabianni,Messi,Zapelli,Soule,Barcon't,Saviola,Funes Mori,Cavenaghi,Simeone,Pity Martinez,Francescoli,Boselli
+Francescoli,Soule,Gallardo,Barcon't,Di Maria,Wachoffisde Abila,Chiquito Romero,Ruggeri,Pumpido,Burrito Ortega,Boselli
+Pumpido,Ruggeri,Saviola,Echeverri,Luka Romero
+Rojas,Ogro Fabianni,Aimar,Funes Mori,Cavenaghi,Simeone,Dybala,Beltran,Palermo
+Ogro Fabianni,Messi,Soule,Passarella,Barcon't,Chiquito Romero,Fillol,Simeone,Cavenaghi,Changuito Zeballos,Pity Martinez,Luka Romero,Boselli,Colo Barco
+Riquelme,Zapelli,Cavenaghi
+Maidana,Ogro Fabianni,Messi,Aimar,Tucu Pereyra,Gallardo,Pezzella,Saviola,El fantasma de la B,Riquelme,Burrito Ortega,Echeverri,Langoni,Fillol,Carrizo,Casco,Boselli,Colo Barco
+Rojas,Messi,Zapelli,Soule,Dibu,Chiquito Romero,Pumpido,Riquelme,Cavenaghi,Funes Mori,Beltran,Francescoli,Armani,Fillol,Carrizo,Changuito Zeballos,Aimar,Gallardo,Di Maria,Colidio,Saviola,Crespo,Alario,Alonso,Palermo
+Maidana,Ogro Fabianni,Messi,Tucu Pereyra,Dibu,Burrito Ortega,Langoni,El fantasma de la B,Changuito Zeballos,Casco,Beltran,Francescoli,Buendia
+Rojas,Zapelli,Dibu,Gallardo,Simeone,Francescoli,Palermo
+Ogro Fabianni,Messi,Zapelli,Dibu,Pezzella,Di Maria,Barcon't,Colidio,Fillol,Simeone,Dybala,Buendia
+Maidana,Aimar,Cuti Romero,Dibu,Pezzella,Di Maria,Armani,Chiquito Romero
+Luka Romero,Pezzella
+Cuti Romero,Barcon't,Chiquito Romero,Alario,Funes Mori,Palermo,Boselli
+Maidana,Burrito Ortega,Echeverri,Simeone,Carrizo
+Mauro Zarate,Rojas,Armani,Colidio,Ruggeri,Funes Mori,Fillol,Simeone,Ponzio,Boselli
+Beltran,Ruggeri,Funes Mori,El fantasma de la B
+Cuti Romero,Colidio,Langoni,Ponzio,Colo Barco
+Ogro Fabianni,Messi,Gallardo,Armani,Chiquito Romero,Burrito Ortega,Funes Mori,Dybala,Pity Martinez,Buendia,Colo Barco
+Gallardo,Chiquito Romero,Colidio,Echeverri,Colo Barco
+Mauro Zarate,Aimar,Gallardo,Pezzella,Barcon't,Colidio,Burrito Ortega,Simeone,Beltran,Boselli
+Passarella,Tucu Pereyra,Gallardo,Pumpido,Riquelme,Burrito Ortega,Echeverri,Alonso,Palermo,Ponzio
+Maidana,Messi,Gallardo,Pezzella,Di Maria,Pumpido,Crespo,Alario,El fantasma de la B,Simeone,Dybala,Beltran,Palermo,Boselli
+Ogro Fabianni,Barcon't,Ponzio,Mauro Zarate,Zapelli,Passarella,Chiquito Romero,Pumpido,Funes Mori,Buendia,Maidana,Francescoli,Armani,Simeone,El fantasma de la B,Fillol,Carrizo,Buonanotte,Aimar,Di Maria,Echeverri,Alonso,Colo Barco
+Gallardo,Wachoffisde Abila,Ruggeri,Riquelme,Alario,El fantasma de la B,Dybala,Colo Barco
+Passarella,Aimar,Gallardo,Saviola,Fillol,Colo Barco
+Armani,Luka Romero,Pezzella
+Maidana,Pity Martinez,Pumpido,Simeone
+Soule,Di Maria,Armani,Saviola,Simeone,Pity Martinez,Boselli
+Maidana,Ogro Fabianni,Zapelli,Barcon't,Casco,Palermo
+Armani,Chiquito Romero,Ruggeri
+Rojas,Aimar,Cuti Romero,Dibu,Pezzella,Armani,Di Maria,Wachoffisde Abila,Saviola
+Mauro Zarate,Messi,Zapelli,Soule,Di Maria,Armani,Pumpido,Saviola,Cavenaghi,Dybala,Colo Barco
+Messi,Aimar,Passarella,Di Maria,Pumpido,Riquelme,Burrito Ortega,Beltran,Palermo
+Messi,Soule,Dibu,Chiquito Romero,Tucu Pereyra,Pumpido,Langoni,Fillol,Simeone,Dybala,Casco,Colo Barco
+Simeone
+Zapelli,Cuti Romero,Passarella,Barcon't,Funes Mori,Langoni,Cavenaghi,Palermo,Buendia
+Wachoffisde Abila,Casco,Funes Mori,Soule
+Rojas,Ogro Fabianni,Aimar,Ruggeri,Dybala,Casco
+Maidana,Crespo
+Ogro Fabianni,Cuti Romero,Gallardo,Ruggeri,Crespo
+Carrizo,Pezzella
+Dibu,Gallardo,Chiquito Romero,Saviola,Crespo,Alario,Cavenaghi,Carrizo,Pity Martinez,Di Maria,Buendia
+Rojas,Gallardo,Chiquito Romero,Cavenaghi,Fillol,Changuito Zeballos,Pity Martinez,Buendia,Ponzio,Luka Romero,Colo Barco
+Maidana,Zapelli,Di Maria,Colidio,Saviola,Burrito Ortega,Fillol,Pity Martinez
+Francescoli,Cuti Romero,Gallardo,Di Maria,Colidio,Chiquito Romero,Pumpido,Riquelme,Alario,Echeverri,Carrizo,Dybala,Soule,Beltran,Boselli
+Beltran,Messi
+Dibu,Gallardo,Echeverri,El fantasma de la B,Alonso
+Rojas,Pumpido,Carrizo,Crespo
+Francescoli,Mauro Zarate,Langoni,Colo Barco
+Zapelli,Di Maria,Chiquito Romero,Crespo,Riquelme,Burrito Ortega,Dybala,Ponzio
+Zapelli,Buendia
+Francescoli,Aimar,Tucu Pereyra,Dibu,Wachoffisde Abila,Saviola,Pumpido,Mauro Zarate,Alario,Pity Martinez,Luka Romero,Colo Barco
+Buonanotte,Barcon't,Pumpido,Fillol,Simeone,Beltran,Ponzio,Boselli
+Tucu Pereyra,Passarella,Pumpido,Langoni,Carrizo,Dybala,Pity Martinez,Cuti Romero,Boselli
+Colidio,Fillol,Crespo
+Ruggeri,Soule,Dybala
+Mauro Zarate,Cuti Romero,Dibu,Crespo,Burrito Ortega,Palermo
+Messi,Cuti Romero,Passarella,Chiquito Romero,Pumpido,Riquelme,Burrito Ortega,Langoni,Alonso,Buendia,Colo Barco
+Maidana,Tucu Pereyra,Dibu,Colidio,Pumpido,Crespo,Echeverri,Alario,Changuito Zeballos,Alonso,Ponzio,Luka Romero
