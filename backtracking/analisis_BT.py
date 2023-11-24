@@ -4,10 +4,12 @@ import matplotlib.pyplot as plt
 import backtracking as b
 import setup as s
 
-DIRECTORIO_EJEMPLO = 'C:\\Users\\Bill\\Desktop\\FIIUBA\\2C2023\\tda\\tp3\\2c2023-TDA-TP3\datos\prueba_rand'
+DIRECTORIO_EJEMPLO = '.\prueba4'
 
 def testear_carpeta(directorio):
     archivos_pruebas = os.listdir(directorio)
+    print(archivos_pruebas)
+    time.sleep(2)
     tiempos = []
     cant_n = []
     for i in archivos_pruebas:
@@ -28,15 +30,15 @@ def una_ejecucion(archivo):
     transcurrido = fin - inicio
     n = n
 
-    return transcurrido, n
+    return n,transcurrido
 
 def graficar_carpeta_vs_funcion(data : tuple):
     plt.plot(data[0], data[1], 'ro')
-    plt.ylabel('some numbers')
+    plt.ylabel('tiempo')
     plt.show()
 x,y = testear_carpeta(DIRECTORIO_EJEMPLO)
-x =sorted(x)
-y=sorted(y)
+#x =sorted(x)
+#y=sorted(y)
 data = (x,y)
 graficar_carpeta_vs_funcion(data)
 print(f"tiempos: {x}, enes: {y}")
