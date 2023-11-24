@@ -29,6 +29,7 @@ def aproximation_by_lineal_programming(problem_data):
     for journalist in problem_data.B_subsets:
         lista = problem_data.B_subsets[journalist]
         if (len(lista) > biggest_subset):
+            print("Big subset:", len(lista))
             biggest_subset = len(lista)
 
         mapped_list = []
@@ -46,17 +47,15 @@ def aproximation_by_lineal_programming(problem_data):
     return list(map(lambda player: (player.name, pulp.value(player)), problem_player_variables)), biggest_subset
 
 
-
 if __name__ == "__main__":
-    #aproximation_list, biggest_subset = map_file_and_aprox_by_lp("datos/sets_catedra/200.txt")
-    aproximation_list, biggest_subset = map_file_and_aprox_by_lp("datos/sets_grandes/1005.txt")
-    print("Aproximation:", aproximation_list)
+    aproximation_list, biggest_subset = map_file_and_aprox_by_lp("datos/sets_grandes/1005_Messi.txt")
     print("Biggest subset:", biggest_subset)
     
+    # Valores para cada jugador, y cuantos son elegidos según 1/b
     aproximation_result = list(filter(lambda player: player[1] >= (1/biggest_subset), aproximation_list))
-    print("Aproximation filtered >=", 1/biggest_subset, ":", aproximation_result)
-    print("Difference:", len(aproximation_list), len(aproximation_result))
+    print("Aproximation filtered >=", 1/biggest_subset, ":\n", aproximation_result)
+    print("Difference:", len(aproximation_result), len(aproximation_list))
 
     # Esto es simplemente para mejorar la legibilidad, redondea los decimales
-    listinha = list(map(lambda player: (player[0], round(player[1], 3)), aproximation_result))
-    print("Listinha:", listinha)
+    rounded_list = list(map(lambda player: (player[0], round(player[1], 3)), aproximation_result))
+    print("Rounded list:", rounded_list)
