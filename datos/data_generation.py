@@ -8,12 +8,16 @@ def crear_subconjuntos_b(cantidad_b, cantidad_a, archivo_salida):
     #creo una lista de posibles jugadores
     for linea in listado_jugadores.readlines():
         jugadores_posibles.append(linea[:-1])
-
+    max_jugadores = len(jugadores_posibles)-1
+    
+    #porsi las dudas
+    cantidad_a = min(cantidad_a,max_jugadores)
+    
     #restrinjo aleatoriamente
     restringir = random.randint(1,2)
     if restringir == 1:
-        for i in range(cantidad_b,45-cantidad_a):
-            j = random.randint(0, 45-i)
+        for i in range(cantidad_b,max_jugadores-cantidad_a):
+            j = random.randint(0, max_jugadores-i)
             jugadores_posibles.pop(j)
 
     salida = open(archivo_salida, 'w')
@@ -28,7 +32,6 @@ def crear_subconjuntos_b(cantidad_b, cantidad_a, archivo_salida):
                 tirar_de_vuelta = 2
             else:
                 tirar_de_vuelta = random.randint(1,10)
-                print("tiramo de vuelta")
             if tirar_de_vuelta !=1:
                 while jug < 3:
                     jug = random.randint(0, cantidad_a-1)
