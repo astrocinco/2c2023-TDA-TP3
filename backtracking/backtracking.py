@@ -1,10 +1,10 @@
 import setup as s
 import time
 
-ARCHIVO_PRUEBA = "./prueba2/prueba2_375.txt"
+ARCHIVO_PRUEBA = "./set_pequeño/200.txt"
 N_MINIMO = 2
             
-def chequear_solucion(periodistas : dict, convocados : list):   
+def chequear_solucion(periodistas : dict, convocados :set):   
     aux = set()
     for convocado in convocados:
         for periodista in periodistas.keys():
@@ -19,12 +19,11 @@ def cantidad_minima(periodistas : dict):
     n_anterior = 0
     minimo_n = 0
     ultimo_nulo = 0
-    paro = 10
+    paro = 2
 
     while paro > 1:
-        print(f"pruebo con {n_actual}")
         #time.sleep(2)
-        posibles = []
+        posibles = set()
         hay_solucion = BT_recursivo(periodistas,posibles,n_actual)
         aux_n = n_actual
 
@@ -59,13 +58,11 @@ def cantidad_minima(periodistas : dict):
 
 ######### SEGUNDA IDEA ##############
 
-def BT_recursivo(periodistas:dict, convocados:list = [], n_minimo = 100):
+def BT_recursivo(periodistas:dict, convocados:set, n_minimo = 100):
 
     if len(periodistas.keys()) == 0: 
-
         return True
     if len(convocados) == n_minimo: 
-
         return False
     
     eliminados = {}
@@ -73,7 +70,7 @@ def BT_recursivo(periodistas:dict, convocados:list = [], n_minimo = 100):
     aux = periodistas.copy()
     
     for jugador in siguiente[1]:
-        convocados.append(jugador)
+        convocados.add(jugador)
         for periodista in periodistas:
             if jugador in periodistas[periodista]: eliminados[periodista] = aux.pop(periodista)
 
@@ -86,8 +83,7 @@ def BT_recursivo(periodistas:dict, convocados:list = [], n_minimo = 100):
     return False
         
 def devolver_periodistas(periodistas:dict, eliminados:dict):
-    for e in eliminados.keys():
-        periodistas[e] = eliminados[e]
+    periodistas.update(eliminados)
     s.ordenar_diccionario(periodistas)
     return periodistas
 
@@ -96,9 +92,11 @@ def devolver_periodistas(periodistas:dict, eliminados:dict):
 ### TESTING ###
     
 
-#periodistas = s.crear_diccionario_periodistas(ARCHIVO_PRUEBA)
+periodistas = s.crear_diccionario_periodistas(ARCHIVO_PRUEBA)
 #convocados = []
 #print(BT_recursivo(periodistas,convocados=convocados, n_minimo=10))
+#inicio = time.time()
 #minimo, convocados = cantidad_minima(periodistas)
+#final = time.time()
 #print(chequear_solucion(periodistas,convocados))
-#print(f"el minimo es {minimo} y los convocados son {convocados}")
+#print(f"el minimo es {minimo} y los convocados son {convocados}, tardo {final-inicio}")
