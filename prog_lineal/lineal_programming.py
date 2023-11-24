@@ -4,10 +4,14 @@ sys.path.insert(1, '')
 
 from datos.data_processing import map_txt
 
-
-def map_file_and_solve_by_lp(file_path):
-    problem_data = map_txt(file_path)
-    return solution_by_lineal_programming(problem_data)
+def check_solution(journalists : dict, players_convoked : list):   
+    aux = set()
+    for player in players_convoked:
+        for journalist in journalists.keys():
+            if player in journalists[journalist]:
+                aux.add(journalist)
+    
+    return len(aux) == len(journalists.keys())
 
 
 def get_pulpvariable_by_name_in_list(variable_list, name):
@@ -41,11 +45,13 @@ def solution_by_lineal_programming(problem_data):
     problem.solve()
     return list(map(lambda player: (player.name, pulp.value(player)), problem_player_variables))
 
-
 if __name__ == "__main__":
-    solution = map_file_and_solve_by_lp("datos/sets_catedra/200.txt")
+    problem_data = map_txt("datos/sets_catedra/200.txt")
+    solution = solution_by_lineal_programming(problem_data)
     #solution = map_file_and_solve_by_lp("datos/sets_grandes/3005.txt")
     print("Solution:", solution) 
     solution_filtered = list(filter(lambda player: player[1] == 1, solution))
-    print("Filtered solution", solution_filtered)
-    print("Choosen players vs total players:", len(solution_filtered), len(solution))
+    players_convoked = [player[0] for player in solution_filtered]
+    print("Filtered solution", players_convoked)
+    print(f"Choosen players vs total players: {len(solution_filtered)} de {len(solution)}")
+    print(f"Verified solution: {check_solution(problem_data.B_subsets, players_convoked)}")
