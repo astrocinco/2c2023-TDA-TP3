@@ -1,0 +1,7 @@
+El fantasma de la B,Langoni,Tucu Pereyra,Armani,Colo Barco,Buonanotte,Changuito Zeballos,Gallardo,Mauro Zarate,Pity Martinez,Cuti Romero,Casco,Zapelli
+Langoni,Pity Martinez
+Buendia,Tucu Pereyra,Colo Barco,Palermo,Zapelli,Armani,Chiquito Romero,Cuti Romero,El fantasma de la B,Simeone,Riquelme,Mauro Zarate,Luka Romero,Pezzella,Langoni,Dybala,Gallardo,Ogro Fabianni,Pity Martinez,Casco
+Tucu Pereyra,Burrito Ortega,Soule,Armani,Wachoffisde Abila,Di Maria,Chiquito Romero,Cuti Romero,El fantasma de la B,Simeone,Buonanotte,Mauro Zarate,Luka Romero,Barcon't,Langoni,Beltran,Dibu,Changuito Zeballos,Gallardo,Pity Martinez
+Burrito Ortega,Barcon't,Pezzella,Langoni,Ogro Fabianni,Dibu,Riquelme,Di Maria,Mauro Zarate,Chiquito Romero
+Buendia,El fantasma de la B,Simeone,Langoni,Tucu Pereyra,Colo Barco,Dybala,Beltran,Ogro Fabianni,Dibu,Gallardo,Cuti Romero,Chiquito Romero,Pity Martinez
+Soule,Simeone,Langoni,Armani,Dybala,Beltran,Riquelme,Changuito Zeballos,Gallardo,Mauro Zarate,Cuti Romero,Pity Martinez,Casco,Zapelli

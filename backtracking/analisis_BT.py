@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import backtracking as b
 import setup as s
 
-DIRECTORIO_EJEMPLO = 'C:\\Users\\Bill\\Desktop\\FIIUBA\\2C2023\\tda\\tp3\\2c2023-TDA-TP3\datos\prueba1'
+DIRECTORIO_EJEMPLO = 'C:\\Users\\Bill\\Desktop\\FIIUBA\\2C2023\\tda\\tp3\\2c2023-TDA-TP3\datos\prueba_rand'
 
 def testear_carpeta(directorio):
     archivos_pruebas = os.listdir(directorio)
