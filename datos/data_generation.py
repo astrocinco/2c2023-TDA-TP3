@@ -1,5 +1,6 @@
 import random
 import os
+from datos.adt import ProblemData
 
 def recortar_aleatoriamente_los_jugadores_de_a(max_jugadores, jugadores_posibles : list):
     restringir = random.choice([True,False,False])
@@ -46,7 +47,7 @@ def crear_cadena_b(subconjunto_b):
     cadena = cadena + '\n'
     return cadena
 
-def crear_subconjuntos_b(cantidad_b, cantidad_a, archivo_salida, min_tamaño_b = 1, max_tamaño_b = 0):
+def data_generate(cantidad_de_sets, min_jugadores_por_set = 1):
     listado_jugadores = open('.\listado_completo_50.txt','r')
     jugadores_posibles = []
     
@@ -54,31 +55,43 @@ def crear_subconjuntos_b(cantidad_b, cantidad_a, archivo_salida, min_tamaño_b =
     for linea in listado_jugadores.readlines():
         jugadores_posibles.append(linea[:-1])
     max_jugadores = len(jugadores_posibles)-1
-
-    #porsi las dudas
-    cantidad_a = min(cantidad_a,max_jugadores)
     
     #la restriccion del maximo de b
-    if max_tamaño_b == 0:
-        max_tamaño_b = max_jugadores
+    max_tamaño_b = max_jugadores
 
     #restrinjo aleatoriamente
     jugadores_posibles = recortar_aleatoriamente_los_jugadores_de_a(max_jugadores, jugadores_posibles)
-
-    salida = open(archivo_salida, 'w')
     
+    all_preferences = dict()
+    all_players = set()
+    contador = 0
+      
     #creo los subconjuntos con los jugadores aleatorios
-    for k in range(0,cantidad_b):
-        subconjunto = crear_subconjunto_b(min_tamaño_b,max_tamaño_b,len(jugadores_posibles),jugadores_posibles)
-        cadena = crear_cadena_b(subconjunto)
-        salida.write(cadena)
+    for k in range(0,cantidad_de_sets):
+        subconjunto = crear_subconjunto_b(min_jugadores_por_set, max_tamaño_b,len(jugadores_posibles),jugadores_posibles)
+        all_preferences["journalist" + str(contador)] = subconjunto
+        for player in subconjunto:
+            if player not in all_players:
+                all_players.add(player)
+        contador += 1  
+    
+    return ProblemData(all_players, all_preferences)
 
-def crear_varios_data_sets(nomenclatura: str, cantidad_data, b_inicial, incremento, cantidad_a_min = 2, cantidad_a_max = 200, min_tamaño_b = 1, max_tamaño_b = 0):
+
+def data_save(data: ProblemData, archivo_salida):
+    salida = open(archivo_salida, 'w')
+    for subset in data.B_subsets.values():
+        cadena = crear_cadena_b(subset)
+        salida.write(cadena)
+    
+def crear_varios_data_sets(nomenclatura: str, cantidad_data, b_inicial, incremento, cantidad_a_min = 2, cantidad_a_max = 200, min_tamaño_b = 1):
     b_actual = b_inicial
     for i in range(0,cantidad_data): 
-        nombre = nomenclatura + '_' + str(b_actual) + '.txt'
-        crear_subconjuntos_b(b_actual, random.randint(cantidad_a_min,cantidad_a_max), nombre, min_tamaño_b, max_tamaño_b)
+        nombre_de_archivo = nomenclatura + '_' + str(b_actual) + '.txt'
+        data = crear_problem_data(b_actual, random.randint(cantidad_a_min,cantidad_a_max), min_tamaño_b)
+        guardar_subconjuntos_b_en_archivo(data, nombre_de_archivo)
         b_actual += incremento
+
 
 crear_varios_data_sets('prueba8', 100, 50, 2, 5)
 
