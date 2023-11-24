@@ -1,5 +1,6 @@
 import setup as s
 import time
+from datos.adt import ProblemData
 
 ARCHIVO_PRUEBA = "./set_pequeño/200.txt"
 N_MINIMO = 2
@@ -14,8 +15,8 @@ def chequear_solucion(periodistas : dict, convocados :set):
     return len(aux) == len(periodistas.keys())
 
 
-def cantidad_minima(periodistas : dict):
-    n_actual = len(periodistas.keys())
+def solution_by_backtracking(data : ProblemData):
+    n_actual = len(data.B_subsets.keys())
     n_anterior = 0
     minimo_n = 0
     ultimo_nulo = 0
@@ -24,7 +25,7 @@ def cantidad_minima(periodistas : dict):
     while paro > 1:
         #time.sleep(2)
         posibles = set()
-        hay_solucion = BT_recursivo(periodistas,posibles,n_actual)
+        hay_solucion = backtracking_recursivo(data.B_subsets, posibles,n_actual)
         aux_n = n_actual
 
         if hay_solucion == True:
@@ -58,7 +59,7 @@ def cantidad_minima(periodistas : dict):
 
 ######### SEGUNDA IDEA ##############
 
-def BT_recursivo(periodistas:dict, convocados:set, n_minimo = 100):
+def backtracking_recursivo(periodistas:dict, convocados:set, n_minimo = 100):
 
     if len(periodistas.keys()) == 0: 
         return True
@@ -74,7 +75,7 @@ def BT_recursivo(periodistas:dict, convocados:set, n_minimo = 100):
         for periodista in periodistas:
             if jugador in periodistas[periodista]: eliminados[periodista] = aux.pop(periodista)
 
-        if BT_recursivo(aux, convocados, n_minimo): 
+        if backtracking_recursivo(aux, convocados, n_minimo): 
             return True
 
         #si no es solucion, vuelvo para atras
