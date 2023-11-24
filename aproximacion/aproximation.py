@@ -48,7 +48,8 @@ def aproximation_by_lineal_programming(problem_data):
 
 
 if __name__ == "__main__":
-    aproximation_list, biggest_subset = map_file_and_aprox_by_lp("datos/sets_catedra/200.txt")
+    #aproximation_list, biggest_subset = map_file_and_aprox_by_lp("datos/sets_catedra/200.txt")
+    aproximation_list, biggest_subset = map_file_and_aprox_by_lp("datos/sets_grandes/1005.txt")
     print("Aproximation:", aproximation_list)
     print("Biggest subset:", biggest_subset)
     
@@ -58,4 +59,4 @@ if __name__ == "__main__":
 
     # Esto es simplemente para mejorar la legibilidad, redondea los decimales
     listinha = list(map(lambda player: (player[0], round(player[1], 3)), aproximation_result))
-    print(listinha)
+    print("Listinha:", listinha)

@@ -44,7 +44,8 @@ def solution_by_lineal_programming(problem_data):
 
 if __name__ == "__main__":
     solution = map_file_and_solve_by_lp("datos/sets_catedra/200.txt")
+    #solution = map_file_and_solve_by_lp("datos/sets_grandes/3005.txt")
     print("Solution:", solution) 
     solution_filtered = list(filter(lambda player: player[1] == 1, solution))
     print("Filtered solution", solution_filtered)
-    print("Amount of players:", len(solution_filtered))
+    print("Choosen players vs total players:", len(solution_filtered), len(solution))
