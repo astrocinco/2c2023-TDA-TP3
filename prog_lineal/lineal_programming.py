@@ -3,7 +3,6 @@ import sys
 sys.path.insert(1, '')
 
 from datos.data_processing import map_txt
-from datos.adt import ProblemData
 
 
 def map_file_and_solve_by_lp(file_path):
@@ -44,4 +43,8 @@ def solution_by_lineal_programming(problem_data):
 
 
 if __name__ == "__main__":
-    print("Solution:", map_file_and_solve_by_lp("datos/sets_catedra/5.txt")) 
+    solution = map_file_and_solve_by_lp("datos/sets_catedra/200.txt")
+    print("Solution:", solution) 
+    solution_filtered = list(filter(lambda player: player[1] == 1, solution))
+    print("Filtered solution", solution_filtered)
+    print("Amount of players:", len(solution_filtered))
