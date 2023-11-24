@@ -1,0 +1,5 @@
+Tucu Pereyra,Simeone,Zapelli,Pezzella
+Cuti Romero,El fantasma de la B,Tucu Pereyra,Pezzella,Soule
+Langoni,Cuti Romero,Changuito Zeballos,El fantasma de la B,Tucu Pereyra,Zapelli,Pezzella,Simeone,Buonanotte
+Langoni,Beltran,Pezzella,El fantasma de la B
+Langoni,Changuito Zeballos,Tucu Pereyra,Barcon't,Beltran,Zapelli

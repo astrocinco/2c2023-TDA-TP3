@@ -1,0 +1,41 @@
+Colo Barco
+Beltran,Colo Barco,Tucu Pereyra
+Mauro Zarate,Colo Barco
+Beltran,Mauro Zarate,Tucu Pereyra
+Tucu Pereyra
+Tucu Pereyra,Beltran,Colo Barco
+Beltran,Mauro Zarate
+Beltran,Colo Barco
+Tucu Pereyra,Colo Barco
+Mauro Zarate,Soule
+Tucu Pereyra
+Mauro Zarate
+Mauro Zarate
+Beltran
+Beltran,Mauro Zarate,Soule
+Tucu Pereyra,Soule
+Beltran,Colo Barco
+Mauro Zarate,Soule
+Tucu Pereyra,Colo Barco
+Tucu Pereyra,Mauro Zarate
+Colo Barco,Soule
+Colo Barco,Mauro Zarate
+Colo Barco,Mauro Zarate
+Beltran,Colo Barco,Tucu Pereyra
+Mauro Zarate,Soule,Colo Barco
+Beltran,Soule,Tucu Pereyra
+Tucu Pereyra,Mauro Zarate
+Beltran,Mauro Zarate
+Soule
+Tucu Pereyra
+Soule
+Tucu Pereyra,Mauro Zarate,Soule
+Colo Barco
+Mauro Zarate,Soule
+Beltran,Tucu Pereyra
+Tucu Pereyra,Beltran
+Tucu Pereyra,Colo Barco,Mauro Zarate
+Tucu Pereyra,Beltran,Soule
+Tucu Pereyra,Colo Barco,Mauro Zarate
+Beltran,Mauro Zarate,Colo Barco
+Mauro Zarate

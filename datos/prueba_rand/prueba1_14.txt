@@ -1,0 +1,14 @@
+Di Maria,El fantasma de la B,Soule,Ogro Fabianni
+Chiquito Romero,Ogro Fabianni
+
+Chiquito Romero,Di Maria
+Colo Barco
+Soule
+
+Chiquito Romero,Soule
+
+Di Maria
+Chiquito Romero,Di Maria
+El fantasma de la B,Soule,Ogro Fabianni
+Soule
+Colo Barco,El fantasma de la B,Ogro Fabianni

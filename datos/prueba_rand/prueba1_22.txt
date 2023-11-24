@@ -1,0 +1,22 @@
+Buonanotte,Barcon't,Tucu Pereyra
+Changuito Zeballos,Cuti Romero,Luka Romero
+Dibu
+El fantasma de la B,Buonanotte,Dibu,Changuito Zeballos,Luka Romero
+El fantasma de la B,Barcon't,Langoni,Tucu Pereyra,Buonanotte,Dibu,Changuito Zeballos
+Barcon't,Tucu Pereyra,Buonanotte,Changuito Zeballos,Cuti Romero
+El fantasma de la B,Soule,Langoni,Dibu,Changuito Zeballos
+Langoni,Buonanotte,El fantasma de la B
+Barcon't,Langoni,Dibu,Changuito Zeballos,Luka Romero
+Langoni,Buonanotte,Dibu
+Langoni,Buonanotte,Tucu Pereyra,Soule
+Barcon't,Soule,Buonanotte,Changuito Zeballos,Cuti Romero
+Buonanotte,Soule
+Soule,Langoni,Tucu Pereyra,Buonanotte,Luka Romero
+Barcon't,Soule
+Langoni,Messi,Soule
+El fantasma de la B,Soule,Langoni,Buonanotte,Dibu,Cuti Romero
+Soule,Langoni,Tucu Pereyra,Buonanotte,Changuito Zeballos
+Tucu Pereyra,Buonanotte,Messi,Luka Romero
+Langoni,Buonanotte,Changuito Zeballos,Messi
+Buonanotte,Dibu,Tucu Pereyra,Luka Romero
+Buonanotte,Barcon't,Messi,Tucu Pereyra

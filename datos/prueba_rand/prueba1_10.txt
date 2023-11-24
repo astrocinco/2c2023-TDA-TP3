@@ -1,0 +1,10 @@
+Simeone
+Riquelme,Messi
+El fantasma de la B,Simeone,Langoni,Tucu Pereyra,Armani,Ogro Fabianni,Di Maria,Chiquito Romero,Cuti Romero,Zapelli
+Barcon't,Simeone,Riquelme,Wachoffisde Abila,Chiquito Romero
+Burrito Ortega,Riquelme
+Chiquito Romero,El fantasma de la B,Barcon't,Changuito Zeballos
+Buendia,El fantasma de la B,Barcon't,Soule,Simeone,Langoni,Tucu Pereyra,Armani,Dybala,Beltran,Changuito Zeballos,Burrito Ortega,Wachoffisde Abila,Di Maria,Chiquito Romero,Pity Martinez
+Buendia,Tucu Pereyra,Dybala,Messi,Beltran,Chiquito Romero
+Burrito Ortega,El fantasma de la B,Barcon't,Simeone,Langoni,Tucu Pereyra,Armani,Dybala,Messi,Dibu,Changuito Zeballos,Riquelme,Ogro Fabianni,Wachoffisde Abila,Chiquito Romero,Pity Martinez,Cuti Romero,Zapelli
+El fantasma de la B,Barcon't,Tucu Pereyra,Dybala,Riquelme,Changuito Zeballos,Wachoffisde Abila,Chiquito Romero,Pity Martinez,Zapelli
