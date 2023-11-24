@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import backtracking as b
 import setup as s
 
-DIRECTORIO_EJEMPLO = '.\prueba4'
+DIRECTORIO_EJEMPLO = '.\prueba6'
 
 def testear_carpeta(directorio):
     archivos_pruebas = os.listdir(directorio)
@@ -29,7 +29,6 @@ def una_ejecucion(archivo):
 
     transcurrido = fin - inicio
     n = n
-
     return n,transcurrido
 
 def graficar_carpeta_vs_funcion(data : tuple):
