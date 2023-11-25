@@ -1,5 +1,0 @@
-Cuti Romero,Zapelli
-Mauro Zarate,Casco,Chiquito Romero,Cuti Romero,Zapelli
-Pity Martinez,Buonanotte,Cuti Romero,Zapelli
-Colidio,Colo Barco,Chiquito Romero,Beltran,Cuti Romero,Zapelli
-El fantasma de la B,Colo Barco,Buonanotte,Chiquito Romero,Beltran,Mauro Zarate,Cuti Romero,Zapelli,Changuito Zeballos

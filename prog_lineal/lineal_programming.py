@@ -2,6 +2,7 @@ import pulp
 import sys
 sys.path.insert(1, '')
 
+from datos.adt import ProblemData
 from datos.data_processing import map_txt
 
 def check_solution(journalists : dict, players_convoked : list):   
@@ -19,39 +20,48 @@ def get_pulpvariable_by_name_in_list(variable_list, name):
         if (variable.name == name):
             return variable
 
-
-def solution_by_lineal_programming(problem_data):
-    players_list = problem_data.players_as_list()
-    problem_player_variables = list()
-    for player in players_list:
-        problem_player_variables.append(pulp.LpVariable(player, cat="Binary"))
-
-    problem = pulp.LpProblem("players_selected", pulp.LpMinimize)
-
-    dict_in_problem_variables = dict()
-    for journalist in problem_data.B_subsets:
-        lista = problem_data.B_subsets[journalist]
+def prepocessing_subsets(journalists, problem_variables):
+        
+    subsets_with_variables = dict()
+    for journalist in journalists:
+        lista = journalists[journalist]
         mapped_list = []
         for player in lista:
-            player_variable = get_pulpvariable_by_name_in_list(problem_player_variables, player)
+            player_variable = get_pulpvariable_by_name_in_list(problem_variables, player)
             mapped_list.append(player_variable)
-        dict_in_problem_variables[journalist] = mapped_list
+            subsets_with_variables[journalist] = mapped_list
+    
+    return subsets_with_variables
 
-    for journalist in dict_in_problem_variables:
-        preferences_list = dict_in_problem_variables[journalist]
+def formating_solution(problem_variables):
+    solution = list(map(lambda player: (player.name, pulp.value(player)), problem_variables))
+    return [player[0] for player in list(filter(lambda player: player[1] == 1, solution))]
+
+def solution_by_lineal_programming(data : ProblemData):
+    journalists = data.B_subsets
+    players_list = data.players_as_list()
+
+    problem_variables = [ pulp.LpVariable(player, cat="Binary") for player in players_list ]
+    
+    subsets_with_variables = prepocessing_subsets(journalists, problem_variables)
+    
+    problem = pulp.LpProblem("players_selected", pulp.LpMinimize)
+
+    for journalist in subsets_with_variables:
+        preferences_list = subsets_with_variables[journalist]
         problem += pulp.LpAffineExpression([(preferences_list[i], 1) for i in range(len(preferences_list))]) >= 1
 
-    problem += pulp.LpAffineExpression([(problem_player_variables[i], 1) for i in range(len(problem_player_variables))])
+    problem += pulp.LpAffineExpression([(problem_variables[i], 1) for i in range(len(problem_variables))])
     problem.solve()
-    return list(map(lambda player: (player.name, pulp.value(player)), problem_player_variables))
+    
+    convocked = formating_solution(problem_variables)
+    
+    return len(convocked), convocked
 
 if __name__ == "__main__":
-    problem_data = map_txt("datos/sets_catedra/200.txt")
-    solution = solution_by_lineal_programming(problem_data)
-    #solution = map_file_and_solve_by_lp("datos/sets_grandes/3005.txt")
-    print("Solution:", solution) 
-    solution_filtered = list(filter(lambda player: player[1] == 1, solution))
-    players_convoked = [player[0] for player in solution_filtered]
-    print("Filtered solution", players_convoked)
-    print(f"Choosen players vs total players: {len(solution_filtered)} de {len(solution)}")
+    archivo = "datos/sets_catedra/200.txt"
+    problem_data = map_txt(archivo)
+    n, players_convoked = solution_by_lineal_programming(problem_data)
+    print("Solution:", players_convoked) 
+    print(f"Choosen players vs total players: {n} de {len(problem_data.A_set)}")
     print(f"Verified solution: {check_solution(problem_data.B_subsets, players_convoked)}")
