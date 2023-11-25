@@ -1,8 +1,10 @@
 import setup as s
 import time
+import sys
+sys.path.insert(1, '')
 from datos.adt import ProblemData
 
-ARCHIVO_PRUEBA = "./set_pequeño/200.txt"
+ARCHIVO_PRUEBA = "datos/sets_catedra/200.txt"
 N_MINIMO = 2
             
 def chequear_solucion(periodistas : dict, convocados :set):   
@@ -91,9 +93,12 @@ def devolver_periodistas(periodistas:dict, eliminados:dict):
 
 
 ### TESTING ###
-    
+if __name__ == "__main__":
+    periodistas = s.crear_diccionario_periodistas(ARCHIVO_PRUEBA)
+    print(periodistas)
 
-periodistas = s.crear_diccionario_periodistas(ARCHIVO_PRUEBA)
+
+
 #convocados = []
 #print(BT_recursivo(periodistas,convocados=convocados, n_minimo=10))
 #inicio = time.time()

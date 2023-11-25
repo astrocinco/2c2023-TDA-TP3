@@ -1,7 +1,9 @@
 import random
 import os
-from adt import ProblemData
-import adt as d
+import sys
+sys.path.insert(1, '')
+
+from datos.adt import ProblemData
 
 
 def recortar_aleatoriamente_los_jugadores_de_a(max_jugadores, jugadores_posibles : list):
@@ -95,6 +97,6 @@ def crear_varios_data_sets(nomenclatura: str, cantidad_data, b_inicial, incremen
         b_actual += incremento
 
 
-crear_varios_data_sets('prueba8', 100, 50, 2, 5)
+#crear_varios_data_sets('prueba8', 100, 50, 2, 5)
 
 

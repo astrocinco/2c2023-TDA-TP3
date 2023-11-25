@@ -1,13 +1,17 @@
 import sys   
 import timeit
 import pandas as pd
-import aproximacion.aproximation as a
+
+sys.path.append('aproximacion')
+
+from aproximation import map_file_and_aprox_by_lp
+#import aproximacion.aproximation as a
 import prog_lineal.lineal_programming as pl
 import datos.data_generation as dat
 
 def comparar_soluciones_PL_vs_PLE(data_file):
     res_solucion_PLE = pl.map_problem_and_solve_by_PLE(data_file)
-    res_aproximacion = a.map_file_and_aprox_by_lp(data_file)
+    res_aproximacion = map_file_and_aprox_by_lp(data_file)
 
     cantidad_aprox = len(res_aproximacion[0])
     b = res_aproximacion[1]
@@ -32,6 +36,4 @@ def get_execution_time(method, max, rep, size):
         aux_df = pd.DataFrame({"time": time*1000}, index=[n_subsets])
         df_time = pd.concat([df_time, aux_df])
     return df_time
-
-
 
