@@ -1,6 +1,8 @@
 import random
 import os
-from datos.adt import ProblemData
+from adt import ProblemData
+import adt as d
+
 
 def recortar_aleatoriamente_los_jugadores_de_a(max_jugadores, jugadores_posibles : list):
     restringir = random.choice([True,False,False])
@@ -47,7 +49,7 @@ def crear_cadena_b(subconjunto_b):
     cadena = cadena + '\n'
     return cadena
 
-def data_generate(cantidad_de_sets, min_jugadores_por_set = 1):
+def crear_problem_data(cantidad_de_sets, min_jugadores_por_set = 1):
     listado_jugadores = open('.\listado_completo_50.txt','r')
     jugadores_posibles = []
     
@@ -78,7 +80,7 @@ def data_generate(cantidad_de_sets, min_jugadores_por_set = 1):
     return ProblemData(all_players, all_preferences)
 
 
-def data_save(data: ProblemData, archivo_salida):
+def guardar_subconjuntos_b_en_archivo(data: ProblemData, archivo_salida):
     salida = open(archivo_salida, 'w')
     for subset in data.B_subsets.values():
         cadena = crear_cadena_b(subset)

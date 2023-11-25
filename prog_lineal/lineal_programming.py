@@ -58,10 +58,15 @@ def solution_by_lineal_programming(data : ProblemData):
     
     return len(convocked), convocked
 
-if __name__ == "__main__":
-    problem_data = map_txt("datos/sets_catedra/200.txt")
+def map_problem_and_solve_by_PLE(archivo):
+    problem_data = map_txt(archivo)
     n, players_convoked = solution_by_lineal_programming(problem_data)
+
+    return n, players_convoked
+
+if __name__ == "__main__":
+    n, players_convoked = map_problem_and_solve_by_PLE("datos/sets_grande/set_200.txt")
     #solution = map_file_and_solve_by_lp("datos/sets_grandes/3005.txt")
     print("Solution:", players_convoked) 
-    print(f"Choosen players vs total players: {n} de {len(problem_data.A_set)}")
-    print(f"Verified solution: {check_solution(problem_data.B_subsets, players_convoked)}")
+   # print(f"Choosen players vs total players: {n} de {len(problem_data.A_set)}")
+    #print(f"Verified solution: {check_solution(problem_data.B_subsets, players_convoked)}")
