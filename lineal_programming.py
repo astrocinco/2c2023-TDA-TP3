@@ -58,6 +58,11 @@ def solution_by_lineal_programming(data : ProblemData):
     
     return len(convocked), convocked
 
+def map_problem_and_solve_by_PLE(archivo):
+    problem_data = map_txt(archivo)
+    n, players_convoked = solution_by_lineal_programming(problem_data)
+    return n, players_convoked
+
 if __name__ == "__main__":
     archivo = "datos/sets_catedra/200.txt"
     problem_data = map_txt(archivo)
