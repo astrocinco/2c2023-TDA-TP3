@@ -5,37 +5,6 @@ sys.path.insert(1, '')
 from datos.adt import ProblemData
 from datos.data_processing import map_txt
 
-def check_solution(journalists : dict, players_convoked : list):   
-    aux = set()
-    for player in players_convoked:
-        for journalist in journalists.keys():
-            if player in journalists[journalist]:
-                aux.add(journalist)
-    
-    return len(aux) == len(journalists.keys())
-
-
-def get_pulpvariable_by_name_in_list(variable_list, name):
-    for variable in variable_list:
-        if (variable.name == name):
-            return variable
-
-def prepocessing_subsets(journalists, problem_variables):
-        
-    subsets_with_variables = dict()
-    for journalist in journalists:
-        lista = journalists[journalist]
-        mapped_list = []
-        for player in lista:
-            player_variable = get_pulpvariable_by_name_in_list(problem_variables, player)
-            mapped_list.append(player_variable)
-            subsets_with_variables[journalist] = mapped_list
-    
-    return subsets_with_variables
-
-def formating_solution(problem_variables):
-    solution = list(map(lambda player: (player.name, pulp.value(player)), problem_variables))
-    return [player[0] for player in list(filter(lambda player: player[1] == 1, solution))]
 
 def solution_by_lineal_programming(data : ProblemData):
     journalists = data.B_subsets
@@ -58,13 +27,50 @@ def solution_by_lineal_programming(data : ProblemData):
     
     return len(convocked), convocked
 
+
+def check_solution(journalists : dict, players_convoked : list):   
+    aux = set()
+    for player in players_convoked:
+        for journalist in journalists.keys():
+            if player in journalists[journalist]:
+                aux.add(journalist)
+    
+    return len(aux) == len(journalists.keys())
+
+
+def get_pulpvariable_by_name_in_list(variable_list, name):
+    for variable in variable_list:
+        if (variable.name == name):
+            return variable
+
+
+def prepocessing_subsets(journalists, problem_variables):
+        
+    subsets_with_variables = dict()
+    for journalist in journalists:
+        lista = journalists[journalist]
+        mapped_list = []
+        for player in lista:
+            player_variable = get_pulpvariable_by_name_in_list(problem_variables, player)
+            mapped_list.append(player_variable)
+            subsets_with_variables[journalist] = mapped_list
+    
+    return subsets_with_variables
+
+
+def formating_solution(problem_variables):
+    solution = list(map(lambda player: (player.name, pulp.value(player)), problem_variables))
+    return [player[0] for player in list(filter(lambda player: player[1] == 1, solution))]
+
+
 def map_problem_and_solve_by_PLE(archivo):
     problem_data = map_txt(archivo)
     n, players_convoked = solution_by_lineal_programming(problem_data)
     return n, players_convoked
 
+
 if __name__ == "__main__":
-    archivo = "datos/sets_catedra/200.txt"
+    archivo = "datos/sets_propios/400.txt"
     problem_data = map_txt(archivo)
     print("Problem data:", problem_data)
     n, players_convoked = solution_by_lineal_programming(problem_data)

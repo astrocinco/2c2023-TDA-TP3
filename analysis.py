@@ -47,6 +47,7 @@ def comparar_solucion_con_catedra(directory, method):
     for elem in files_results:
         data = map_txt(directory+elem[0]+'.txt')
         n, players_convoked = method(data)
+        print("analysis.py 50 |", players_convoked)
         if(n == elem[1]):
             print(f"✔ - Se obtiene una solución optima del set con {elem[0]} subsets")
         else:

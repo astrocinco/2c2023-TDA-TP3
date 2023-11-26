@@ -48,7 +48,7 @@ def aproximation_by_lineal_programming(problem_data):
 
 
 if __name__ == "__main__":
-    aproximation_list, biggest_subset = map_file_and_aprox_by_lp("datos/sets_grandes/1005_Messi.txt")
+    aproximation_list, biggest_subset = map_file_and_aprox_by_lp("datos/sets_propios/400.txt")
     print("Biggest subset:", biggest_subset)
     
     # Valores para cada jugador, y cuantos son elegidos según 1/b
