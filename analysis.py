@@ -15,15 +15,14 @@ from aproximation import map_file_and_aprox_by_lp
 from lineal_programming import map_problem_and_solve_by_PLE, solution_by_lineal_programming
 from graphs import make_execution_time_graph, make_comparation_time_graph
 
-def get_execution_time(method, max, rep, size):
+def get_execution_time(method, min, max, rep, size):
     df_time = pd.DataFrame()
-    for n_subsets in range(2, max):
+    for n_subsets in range(min, max):
         time = 0
         for i in range(1, rep):
             aux_set = crear_problem_data('datos/listado_completo_50.txt', n_subsets)
             time += timeit.timeit(lambda: method(aux_set), number=size)
         time = time / rep
-        
         aux_df = pd.DataFrame({"time": time*1000}, index=[n_subsets])
         df_time = pd.concat([df_time, aux_df])
     return df_time

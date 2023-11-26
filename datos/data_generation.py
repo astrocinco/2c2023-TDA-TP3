@@ -35,11 +35,11 @@ def tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b, cantidad_a):
     return cantidad_de_jugadores
 
 def crear_subconjunto_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles, jugadores_posibles : list):
-    subconjunto = set()
+    subconjunto = []
     jug = tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles)
     
     for h in range(0,jug):
-        subconjunto.add(random.choice(jugadores_posibles))
+        subconjunto.append(random.choice(jugadores_posibles))
     return subconjunto
 
 def crear_cadena_b(subconjunto_b):
