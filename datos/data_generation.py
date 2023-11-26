@@ -36,7 +36,8 @@ def tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b, cantidad_a):
 
 def crear_subconjunto_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles, jugadores_posibles : list):
     subconjunto = []
-    jug = tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles)
+    #jug = tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles) # Esta función se traba a veces.
+    jug = random.randrange(min_tamaño_b, max_tamaño_b) # Santiago: Reemplacé la función anterior por esta de Python. Parecería que el programa no se traba más
     
     for h in range(0,jug):
         subconjunto.append(random.choice(jugadores_posibles))
@@ -52,19 +53,25 @@ def crear_cadena_b(subconjunto_b):
     return cadena
 
 def crear_problem_data(listado_jugadores_file, cantidad_de_sets, min_jugadores_por_set = 1):
-    listado_jugadores = open(listado_jugadores_file,'r')
     jugadores_posibles = []
     
     #creo una lista de posibles jugadores
+    listado_jugadores = open(listado_jugadores_file,'r')
     for linea in listado_jugadores.readlines():
+        #print("data_generation.py | 77", linea)
+        linea = linea.replace(" ", "")
+        linea = linea.replace("'", "")
+        #print("data_generation.py | 78", linea)
         jugadores_posibles.append(linea[:-1])
+    listado_jugadores.close() #Santiago: Faltaba esto. El archivo quedaba abierto
     max_jugadores = len(jugadores_posibles)-1
     
     #la restriccion del maximo de b
     max_tamaño_b = max_jugadores
 
     #restrinjo aleatoriamente
-    jugadores_posibles = recortar_aleatoriamente_los_jugadores_de_a(max_jugadores, jugadores_posibles)
+    jugadores_posibles = recortar_aleatoriamente_los_jugadores_de_a(max_jugadores, jugadores_posibles) #Santiago: Muy complicado y hace todo lento
+    #jugadores_posibles = jugadores_posibles[:max_jugadores] #Elegir aleatoriamente es muy complicado. Me quedo con los X primeros y listo
     
     all_preferences = dict()
     all_players = set()
@@ -72,6 +79,7 @@ def crear_problem_data(listado_jugadores_file, cantidad_de_sets, min_jugadores_p
       
     #creo los subconjuntos con los jugadores aleatorios
     for k in range(0,cantidad_de_sets):
+        #print("data_generation.py | 77", k)
         subconjunto = crear_subconjunto_b(min_jugadores_por_set, max_tamaño_b,len(jugadores_posibles),jugadores_posibles)
         all_preferences["journalist" + str(contador)] = subconjunto
         for player in subconjunto:
