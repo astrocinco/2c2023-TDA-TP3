@@ -998,8 +998,3 @@ Saviola,Mauro Zarate,Passarella,Palermo,Echeverri,Ogro Fabianni,Tucu Pereyra,Pez
 Saviola,Ruggeri,Simeone,Burrito Ortega,Di Maria,Buendia,Colidio,Funes Mori,Cuti Romero
 Burrito Ortega,Pezzella,Colidio,Casco,Luka Romero,Pity Martinez
 Rojas,Aimar,Ruggeri,Messi,Burrito Ortega,Crespo,Echeverri,Dybala,Casco,Cavenaghi,Palermo,Langoni
-Colo Barco,Buonanotte,Francescoli,Messi,Burrito Ortega,Barcon't,Colidio,Alonso,Pumpido,Luka Romero,Cuti Romero,Langoni
-Saviola,Alario,El fantasma de la B,Soule,Luka Romero
-Zapelli,Aimar,Riquelme,Buonanotte,Francescoli,El fantasma de la B,Pezzella,Dybala,Gallardo,Funes Mori
-Saviola,Alario,Beltran,Riquelme,Dybala,Luka Romero
-Buonanotte,Cuti Romero,Passarella,Pumpido
