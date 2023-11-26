@@ -1,1 +1,0 @@
-Los archivos tienen 1 conjunto (pedido de la prensa) por línea, separdos por ", ".
