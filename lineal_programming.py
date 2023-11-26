@@ -64,7 +64,7 @@ def map_problem_and_solve_by_PLE(archivo):
     return n, players_convoked
 
 if __name__ == "__main__":
-    archivo = "datos/sets_catedra/200.txt"
+    archivo = "datos/sets_propios/400.txt"
     problem_data = map_txt(archivo)
     print("Problem data:", problem_data)
     n, players_convoked = solution_by_lineal_programming(problem_data)

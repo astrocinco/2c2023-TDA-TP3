@@ -3,6 +3,7 @@ import time
 import sys
 sys.path.insert(1, '')
 from datos.adt import ProblemData
+from datos.data_processing import map_txt
 
 ARCHIVO_PRUEBA = "datos/sets_catedra/200.txt"
 N_MINIMO = 2
@@ -93,16 +94,14 @@ def devolver_periodistas(periodistas:dict, eliminados:dict):
 
 
 ### TESTING ###
-if __name__ == "__main__":
+""" if __name__ == "__main__":
     periodistas = s.crear_diccionario_periodistas(ARCHIVO_PRUEBA)
-    print(periodistas)
+    print(periodistas) """
 
-
-
-#convocados = []
-#print(BT_recursivo(periodistas,convocados=convocados, n_minimo=10))
-#inicio = time.time()
-#minimo, convocados = cantidad_minima(periodistas)
-#final = time.time()
-#print(chequear_solucion(periodistas,convocados))
-#print(f"el minimo es {minimo} y los convocados son {convocados}, tardo {final-inicio}")
+if __name__ == "__main__":
+    archivo = "datos/sets_propios/400.txt"
+    problem_data = map_txt(archivo)
+    print("Problem data:", problem_data)
+    n, players_convoked = solution_by_backtracking(problem_data)
+    print("Solution:", players_convoked) 
+    print(f"Choosen players vs total players: {n} de {len(problem_data.A_set)}")
