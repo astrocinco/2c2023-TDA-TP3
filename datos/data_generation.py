@@ -51,8 +51,8 @@ def crear_cadena_b(subconjunto_b):
     cadena = cadena + '\n'
     return cadena
 
-def crear_problem_data(cantidad_de_sets, min_jugadores_por_set = 1):
-    listado_jugadores = open('.\listado_completo_50.txt','r')
+def crear_problem_data(listado_jugadores_file, cantidad_de_sets, min_jugadores_por_set = 1):
+    listado_jugadores = open(listado_jugadores_file,'r')
     jugadores_posibles = []
     
     #creo una lista de posibles jugadores
