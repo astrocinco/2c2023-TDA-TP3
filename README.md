@@ -3,3 +3,5 @@ Third project for Teoria de Algoritmos.
 
 ## Programación lineal
 python -m pip install pulp
+
+# By Gonzalez, Teszkiewicz, Langer
