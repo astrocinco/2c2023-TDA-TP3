@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 from datos.adt import ProblemData
 from datos.data_generation import crear_problem_data
+from datos.data_processing import map_txt
 import setup as s
 from backtracking import solution_by_backtracking
 from aproximation import map_file_and_aprox_by_lp
@@ -40,6 +41,17 @@ def comparar_soluciones_PL_vs_PLE(data_file):
         print("fallo la cota")
     else:
         print(f"Cota superior: {b*cantidad_optima} \n N aproximado : {cantidad_aprox} \n N óptimo: {cantidad_optima}") 
+
+def comparar_solucion_con_catedra(directory, method):
+    files_results = [('5', 2), ('7', 2), ('10_pocos', 3), ('10_varios', 6),('10_todos', 10), ('15', 4), ('20', 5), ('50', 6) ,('75', 8), ('100', 8), ('200', 9)]
+    for elem in files_results:
+        data = map_txt(directory+elem[0]+'.txt')
+        n, players_convoked = method(data)
+        if(n >= elem[1]):
+            print(f"✔ - Se obtiene una solución optima del set con {elem[0]} subsets")
+        else:
+            print(f"✗ - La solución del set con {elem[0]} subsets NO es óptima")
+
     
 #################################################################################################################
 
