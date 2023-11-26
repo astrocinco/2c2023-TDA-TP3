@@ -1,0 +1,30 @@
+Francescoli,Zapelli,Wachoffisde Abila,Maidana,Messi,Luka Romero,El fantasma de la B,Armani,Soule
+Simeone,Colo Barco,Chiquito Romero,Di Maria,Wachoffisde Abila,Carrizo,Boselli,Colidio,Saviola,Pezzella,Alonso,Pity Martinez
+Langoni,Beltran,Burrito Ortega,Messi,Luka Romero,Buendia,Passarella,Ponzio,Alonso,Ogro Fabianni,Cuti Romero,Funes Mori
+Fillol,Francescoli,Wachoffisde Abila,Dybala,Luka Romero,Tucu Pereyra,Boselli,Cuti Romero
+Langoni,Maidana,Luka Romero,Tucu Pereyra,Funes Mori
+Carrizo,Colo Barco,Rojas,Armani
+Chiquito Romero,Zapelli,Burrito Ortega,Casco,Gallardo,Crespo,Barcon't,Colidio,Alonso,Echeverri,Cuti Romero
+Simeone,Ruggeri,Chiquito Romero,Beltran,Carrizo,Maidana,Dybala,Alario,Ponzio,Palermo,Barcon't,Dibu
+Alario,Beltran,Aimar,Casco,Passarella,Soule,Pity Martinez,Funes Mori
+Chiquito Romero,Aimar,Luka Romero,Buendia,Buonanotte
+Carrizo,Langoni,Colo Barco,Burrito Ortega,Luka Romero,Buendia,Riquelme,Gallardo,Mauro Zarate,Pumpido,Tucu Pereyra,Armani,Saviola,Soule
+Soule,Aimar,Tucu Pereyra
+Wachoffisde Abila,Dybala,El fantasma de la B,Boselli,Tucu Pereyra,Dibu,Buonanotte
+Dybala,El fantasma de la B,Boselli,Soule,Ogro Fabianni
+Simeone,Fillol,Chiquito Romero,Zapelli,Gallardo,Armani,Tucu Pereyra,Barcon't,Dibu,Alonso
+Changuito Zeballos,Colo Barco,Ruggeri,Luka Romero,Alario,Pumpido,Cavenaghi,Buonanotte,Pezzella,Alonso,Echeverri,Cuti Romero
+Simeone,Casco,Messi,Dybala,Riquelme,Pumpido,Funes Mori
+Simeone,Francescoli,Chiquito Romero,Beltran,Wachoffisde Abila,Carrizo,Messi,Dybala,Buendia,El fantasma de la B,Ponzio,Rojas,Armani,Colidio,Alonso,Changuito Zeballos
+Simeone,Messi,Colo Barco,Ruggeri
+Langoni,Beltran,Wachoffisde Abila,Burrito Ortega,Mauro Zarate,Tucu Pereyra,Ogro Fabianni,Alonso,Cuti Romero,Funes Mori
+Simeone,Langoni,Ruggeri,Beltran,Burrito Ortega,Aimar,Colidio,Pezzella,Ogro Fabianni,Funes Mori
+Zapelli,Saviola,Maidana,Funes Mori
+Changuito Zeballos,Alario,Simeone,Barcon't
+Passarella,Langoni,Francescoli
+Fillol,Zapelli,Funes Mori
+Carrizo,Riquelme,Casco,Palermo
+Langoni,Burrito Ortega,Dybala,Passarella,Tucu Pereyra,Armani,Dibu,Alonso,Funes Mori,Echeverri
+Buonanotte,Aimar,Casco,Tucu Pereyra
+Colo Barco,Ruggeri,Wachoffisde Abila,Casco,Palermo,Pumpido,Tucu Pereyra,Ogro Fabianni
+Fillol,Ruggeri,Maidana,Aimar,Casco,Gallardo,Tucu Pereyra,Colidio,Cuti Romero

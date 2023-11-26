@@ -898,7 +898,7 @@ Langoni,Wachoffisde Abila,Maidana,Crespo,Colidio,Dibu,Pezzella,Soule,Echeverri
 Cavenaghi,Pezzella,Casco,Pity Martinez
 Langoni,Francescoli,Zapelli,Di Maria,Saviola,Alonso
 Carrizo,Changuito Zeballos,Maidana,Luka Romero,Mauro Zarate,Crespo,Cavenaghi,Colidio,Cuti Romero
- Romero,Palermo,Langoni,Wachoffisde Abila
+Romero,Palermo,Langoni,Wachoffisde Abila
 Saviola,Dybala,Aimar,Passarella
 El fantasma de la B,Crespo,Buendia,Beltran,Boselli,Armani,Pezzella,Dybala,Casco,Langoni,Mauro Zarate,Buonanotte,Colidio,Gallardo,Cuti Romero,Wachoffisde Abila,Zapelli,Aimar,Changuito Zeballos,Passarella,Simeone,Ponzio,Pity Martinez
 Zapelli,Aimar,Riquelme,Francescoli,Messi,Crespo,Langoni
