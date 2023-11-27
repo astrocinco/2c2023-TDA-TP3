@@ -1,9 +1,8 @@
 # 2c2023-TDA-TP3
-Third project for Teoria de Algoritmos.
+Tercer trabajo práctico de Teoría de Algoritmos 1, cátedra Buchwald-Genender. Facultad de Ingeniería de la Universidad de Buenos Aires.
 
-## Programación lineal
-python -m pip install pulp
+Grupo compuesto por Martín González Prieto (105738), Santiago Langer (107912) y Camila Teszkiewicz (109660).
 
-# By Gonzalez, Teszkiewicz, Langer
-
-commit sencllo
+### Programación lineal
+Correr el algoritmo por programación lineal requiere instalar el paquete pulp. Ejecutar en terminal: 
+> python -m pip install pulp
