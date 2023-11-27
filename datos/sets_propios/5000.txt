@@ -4755,7 +4755,6 @@ Simeone,Fillol,Ruggeri,Chiquito Romero,Wachoffisde Abila,Messi,Buendia,Riquelme,
 Alario,Chiquito Romero,Messi,Aimar,Casco,Riquelme,Gallardo,Crespo,Cavenaghi,Colidio
 Carrizo,Langoni,Wachoffisde Abila,Luka Romero,Riquelme,El fantasma de la B,Crespo,Tucu Pereyra,Colidio,Pezzella
 Di Maria,Colidio,Pezzella,Alonso,Echeverri
-
 Maidana,Beltran,Passarella,Buonanotte,Messi,Di Maria,Carrizo,Buendia,Dybala,Fillol,Casco,Pumpido
 El fantasma de la B,Francescoli,Burrito Ortega,Carrizo,Wachoffisde Abila
 Saviola,Alario,Beltran,Ogro Fabianni,Tucu Pereyra,Colidio,Casco,Chiquito Romero
@@ -4998,3 +4997,4 @@ Colo Barco,Armani,Beltran,Cavenaghi,Chiquito Romero
 Riquelme,Colidio,Simeone,Barcon't
 Rojas,Soule,Francescoli,Messi,Echeverri,Di Maria,Ogro Fabianni,Pumpido,Ponzio,Cuti Romero,Chiquito Romero,Wachoffisde Abila
 Changuito Zeballos,Soule,Francescoli,Carrizo,Beltran,Fillol,Alonso,Dibu,Ponzio
+Barcon't,Mauro Zarate,Cuti Romero
