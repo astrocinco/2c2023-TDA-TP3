@@ -37,7 +37,7 @@ def tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b, cantidad_a):
 def crear_subconjunto_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles, jugadores_posibles : list):
     subconjunto = []
     #jug = tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles) # Esta función se traba a veces.
-    jug = random.randrange(min_tamaño_b, max_tamaño_b) # Santiago: Reemplacé la función anterior por esta de Python. Parecería que el programa no se traba más
+    jug = random.randrange(2, max_tamaño_b) # Santiago: Reemplacé la función anterior por esta de Python. Parecería que el programa no se traba más
     
     for h in range(0,jug):
         subconjunto.append(random.choice(jugadores_posibles))
@@ -67,7 +67,7 @@ def crear_problem_data(listado_jugadores_file, cantidad_de_sets, min_jugadores_p
     max_jugadores = len(jugadores_posibles)-1
     
     #la restriccion del maximo de b
-    max_tamaño_b = max_jugadores
+    max_tamaño_b = 16
 
     #restrinjo aleatoriamente
     jugadores_posibles = recortar_aleatoriamente_los_jugadores_de_a(max_jugadores, jugadores_posibles) #Santiago: Muy complicado y hace todo lento
@@ -100,11 +100,17 @@ def crear_varios_data_sets(nomenclatura: str, cantidad_data, b_inicial, incremen
     b_actual = b_inicial
     for i in range(0,cantidad_data): 
         nombre_de_archivo = nomenclatura + '_' + str(b_actual) + '.txt'
-        data = crear_problem_data(b_actual, random.randint(cantidad_a_min,cantidad_a_max), min_tamaño_b)
+        data = crear_problem_data('datos/super_listado.txt',b_inicial, random.randint(cantidad_a_min,cantidad_a_max))
         guardar_subconjuntos_b_en_archivo(data, nombre_de_archivo)
         b_actual += incremento
 
 
-#crear_varios_data_sets('prueba8', 100, 50, 2, 5)
+def multiplicar_jugadores():
+    listado = open('datos/listado_completo_50.txt','r')
+    multiplicao = open('super_listado.txt','w')
+    for linea in listado.readlines():
+        for i in range(1,10):
+            multiplicao.write(str(i)+linea)
 
+crear_varios_data_sets('PL20', 1, 2000, 500, 100)
 

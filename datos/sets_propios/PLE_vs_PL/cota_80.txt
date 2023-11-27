@@ -1,0 +1,10 @@
+Ruggeri,Boselli,MauroZarate,Maidana
+WachoffisdeAbila,Francescoli,Beltran,Barovero,Barcont,TucuPereyra
+DiMaria,Palermo,Riquelme,Cavenaghi,DiMaria
+Alario,BurritoOrtega,Saviola,Palermo,Palermo
+Messi,Dibu,PityMartinez,Riquelme,Cavenaghi,ElfantasmadelaB,Pezzella,Alario
+Armani,Rojas,Dibu
+Fillol,Buendia,Soule,Casco,Saviola,Ponzio,Palermo
+Francescoli,Pumpido,FunesMori
+Alario,Colidio,FunesMori,ColoBarco,Colidio,Casco,TucuPereyra,Beltran
+Carrizo,OgroFabianni,PityMartinez,Buonanotte,PityMartinez,BurritoOrtega,ChanguitoZeballos,Ruggeri,Alario

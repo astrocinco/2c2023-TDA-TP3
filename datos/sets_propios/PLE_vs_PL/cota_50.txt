@@ -1,0 +1,10 @@
+Soule,Barcont,Pumpido,Barcont,Dibu,Echeverri,Buendia,Beltran,ColoBarco
+PityMartinez,Alario
+Crespo,ChanguitoZeballos,BurritoOrtega
+Soule,Simeone,BurritoOrtega,ChanguitoZeballos
+Ruggeri,PityMartinez,Pumpido,Dibu
+Beltran,TucuPereyra
+Boselli,ColoBarco,Alonso,Pumpido
+Dybala,Messi,ChanguitoZeballos
+ColoBarco,PityMartinez,Colidio,MauroZarate
+Casco,Soule,Casco,Pumpido,Ponzio,Ponzio,Pumpido,MauroZarate,Boselli
