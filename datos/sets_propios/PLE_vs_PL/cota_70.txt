@@ -1,0 +1,10 @@
+LukaRomero,Barovero,DiMaria
+Ponzio,Saviola,Simeone,MauroZarate,Boselli
+Zapelli,Gallardo,Alonso,Francescoli
+LukaRomero,Echeverri,Soule,Dybala,ColoBarco,Casco,Dibu,Armani
+Soule,Colidio,Zapelli,Passarella,Armani
+Alario,Pumpido,Zapelli
+FunesMori,DiMaria,Aimar,MauroZarate,Soule
+Francescoli,Passarella,Dybala,Zapelli,Simeone
+Colidio,Soule,Gallardo,Barovero,Saviola,Armani,Barovero
+Colidio,Casco,Pumpido,ColoBarco,PityMartinez,Cavenaghi,Passarella,LukaRomero,Colidio

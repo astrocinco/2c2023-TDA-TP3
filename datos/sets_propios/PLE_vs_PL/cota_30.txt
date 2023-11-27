@@ -1,0 +1,10 @@
+Riquelme,Buendia,Echeverri,Carrizo
+Maidana,Ponzio,Ponzio,FunesMori
+Ruggeri,Palermo
+Riquelme,ChanguitoZeballos
+PityMartinez,Cavenaghi,PityMartinez,LukaRomero,Pezzella
+Fillol,ChanguitoZeballos,ChanguitoZeballos,Echeverri
+Colidio,Alario,Dibu,Simeone,Passarella,Gallardo,Rojas
+FunesMori,Fillol,ChiquitoRomero,Alonso,Alario
+TucuPereyra,Aimar,Fillol,Aimar,Buonanotte
+Pumpido,ChiquitoRomero,Rojas,Buonanotte,Buonanotte,Pezzella

@@ -1,0 +1,10 @@
+Carrizo,Cavenaghi,Dybala,Messi,Fillol,MauroZarate,Riquelme,Armani
+Aimar,Ponzio,Riquelme,Ruggeri,Echeverri,Armani,ChanguitoZeballos
+ChiquitoRomero,Passarella,Maidana,Buonanotte,Messi
+Ruggeri,Rojas,Barovero,OgroFabianni,Buendia,Aimar,Zapelli
+DiMaria,Gallardo,Alonso,Boselli,Zapelli,Saviola,ChanguitoZeballos,Buonanotte
+Riquelme,ChanguitoZeballos,Alario,Buendia,Passarella
+PityMartinez,Beltran,Carrizo,ElfantasmadelaB,MauroZarate,Soule
+ColoBarco,Riquelme
+FunesMori,ColoBarco,OgroFabianni
+Soule,Beltran,ChanguitoZeballos,Messi,FunesMori,MauroZarate,Rojas,Barcont

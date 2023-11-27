@@ -1,0 +1,10 @@
+Zapelli,Cavenaghi,Langoni,Simeone,Fillol,ChiquitoRomero
+Maidana,Dybala
+Fillol,Casco,Barovero,Fillol
+Pezzella,Ponzio,Barovero,Riquelme,Palermo
+ChanguitoZeballos,FunesMori,Ponzio,Armani,LukaRomero
+Messi,PityMartinez,ColoBarco,Palermo,Francescoli,TucuPereyra,Saviola
+LukaRomero,Ruggeri,ColoBarco,Langoni,ChiquitoRomero,BurritoOrtega
+Pumpido,Passarella,Rojas,Dybala,Langoni,Pumpido
+MauroZarate,Gallardo,Alonso,Colidio,Barcont,Saviola
+ElfantasmadelaB,FunesMori,Ruggeri

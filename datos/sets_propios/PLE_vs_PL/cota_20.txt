@@ -1,0 +1,10 @@
+TucuPereyra,ChiquitoRomero,PityMartinez,Francescoli,Palermo
+FunesMori,PityMartinez,Ponzio,Barcont,ChanguitoZeballos,Ruggeri
+Ponzio,Simeone,ElfantasmadelaB,Armani,Saviola
+Crespo,Passarella,Langoni,Barovero
+Colidio,Barcont,Soule,Saviola,TucuPereyra,ChiquitoRomero,OgroFabianni,Alario
+MauroZarate,Riquelme,Rojas,CutiRomero
+Francescoli,BurritoOrtega,Rojas,DiMaria
+Cavenaghi,Palermo,ColoBarco,FunesMori,Pumpido,Barcont,Beltran
+Messi,ElfantasmadelaB,Beltran
+ChiquitoRomero,ColoBarco,Rojas,Langoni,Echeverri,Boselli

@@ -1,0 +1,10 @@
+Echeverri,Palermo,Alonso,Beltran,Fillol,Cavenaghi,FunesMori
+Messi,Colidio,Gallardo,Ruggeri,BurritoOrtega,Aimar,Riquelme
+Ruggeri,Pumpido,TucuPereyra,Pumpido,Boselli
+ColoBarco,CutiRomero,Pezzella,Pezzella
+Armani,Alonso,Buonanotte,Cavenaghi,MauroZarate,Cavenaghi
+Alonso,Saviola,Carrizo,Beltran,TucuPereyra,Messi,Maidana
+Crespo,Messi,Saviola
+LukaRomero,ElfantasmadelaB,Buonanotte,ChiquitoRomero
+Armani,Colidio,Langoni,CutiRomero,Langoni,Saviola,Saviola
+ChanguitoZeballos,Ponzio,Carrizo

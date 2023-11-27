@@ -1,0 +1,10 @@
+OgroFabianni,Buendia,FunesMori
+Barovero,Alonso,Armani,Alario,Dibu,Buendia,Maidana
+Armani,Fillol,MauroZarate
+ChiquitoRomero,Pezzella,Carrizo,Alario,Armani,ColoBarco,Ruggeri,Saviola
+CutiRomero,BurritoOrtega,Saviola,Gallardo,Ponzio,Barcont,CutiRomero
+Alario,Cavenaghi,PityMartinez,FunesMori,Carrizo,ChanguitoZeballos,Aimar,PityMartinez,Buonanotte
+Colidio,TucuPereyra,Langoni,Fillol,Armani,Echeverri,PityMartinez,Beltran,Gallardo
+ColoBarco,Maidana,Aimar,Ponzio,Carrizo
+Buendia,BurritoOrtega,Rojas,Ponzio
+Palermo,LukaRomero,Armani,CutiRomero,ChanguitoZeballos,ChanguitoZeballos,ElfantasmadelaB,CutiRomero,Colidio
