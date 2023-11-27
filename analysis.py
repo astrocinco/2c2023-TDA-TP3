@@ -55,7 +55,7 @@ def ejecutar_multiples_PL(directorio):
     archivos_pruebas = os.listdir(directorio)
     for i in archivos_pruebas:
         print(f"archivo: {i}")
-        archivo = directorio + '\\'+i
+        archivo = directorio +i
         aprox, subset_mayor = map_file_and_aprox_by_lp(archivo)
         aproximacion_filtrada = list(filter(lambda player: player[1] >= (1/subset_mayor), aprox))
         print(f"N aproximado {len(aproximacion_filtrada)}")
@@ -81,5 +81,5 @@ def comparar_solucion_con_catedra(directory, method, method_name):
     df_results['coincidencia'] = df_results['resultados por ' + method_name] == df_results['resultados esperados']
     return df_results
 
-    
-ejecutar_multiples_PL("datos/sets_propios/PL")
+if __name__ == "__main__":
+    ejecutar_multiples_PL("datos/sets_propios/PL/")
