@@ -42,16 +42,19 @@ def comparar_soluciones_PL_vs_PLE(data_file):
     else:
         print(f"Cota superior: {b*cantidad_optima} \n N aproximado : {cantidad_aprox} \n N óptimo: {cantidad_optima}") 
 
-def comparar_solucion_con_catedra(directory, method):
-    files_results = [('5', 2), ('7', 2), ('10_pocos', 3), ('10_varios', 6),('10_todos', 10), ('15', 4), ('20', 5), ('50', 6) ,('75', 8), ('100', 9), ('200', 9)]
-    for elem in files_results:
-        data = map_txt(directory+elem[0]+'.txt')
+def comparar_solucion_con_catedra(directory, method, method_name):
+    df_results = pd.DataFrame({
+        'sets': ['5', '7', '10_pocos', '10_varios', '10_todos', '15', '20', '50' ,'75', '100', '200'],
+        'resultados esperados': [2, 2,  3,  6, 10,  4,  5,  6 , 8,  9,  9] 
+    })
+    results = []
+    for set in df_results['sets']:
+        data = map_txt(directory+set+'.txt')
         n, players_convoked = method(data)
-        print("analysis.py 50 |", players_convoked)
-        if(n == elem[1]):
-            print(f"✔ - Se obtiene una solución optima del set con {elem[0]} subsets")
-        else:
-            print(f"✗ - La solución del set con {elem[0]} subsets NO es óptima")
+        results.append(n)
+    df_results['resultados por ' + method_name] = results
+    df_results['coincidencia'] = df_results['resultados por ' + method_name] == df_results['resultados esperados']
+    return df_results
 
     
 #################################################################################################################
