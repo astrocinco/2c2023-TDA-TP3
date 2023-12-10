@@ -81,5 +81,45 @@ def comparar_solucion_con_catedra(directory, method, method_name):
     df_results['coincidencia'] = df_results['resultados por ' + method_name] == df_results['resultados esperados']
     return df_results
 
+def grafico_barras():
+    results = ({
+     'Set': ["2000", "2500", "3000", "3500", "4000", "5000", "6000"],
+     'Aproximación': [130, 295, 406, 378, 294, 199, 74],
+     'b': [15, 20, 7, 11, 29, 19, 9],
+     'Tiempo (s)': [0.2, 0.64, 0.69, 0.95, 1.22, 0.25, 0.06],
+    })
+    
+    data = pd.DataFrame(results)
+    
+    plt.style.use('ggplot')
+    data.set_index('Set').plot.bar(stacked=False)
+    plt.title("Aproximaciones para sets muy grandes")
+    plt.xlabel("Set")
+    plt.ylabel("Número de jugadores")
+    #plt.yscale('log')
+    plt.show()
+
+    return
+
 if __name__ == "__main__":
-    ejecutar_multiples_PL("datos/sets_propios/PL/")
+    #ejecutar_multiples_PL("datos/sets_propios/PL/")
+    grafico_barras()
+
+
+
+"""
+Datos para gráfico de ambas aproximaciones
+results = ({
+     'Set': ["5.txt", "20.txt", "75.txt", "200.txt", "400.txt", "1000.txt", "2500.txt", "5000.txt",],
+     'Óptimo': [2, 5, 8, 9, 15, 21, 23, 27],
+     'Aprox. Greedy': [2, 7, 10, 12, 23, 32, 36, 36],
+     'Aprox. PL': [2, 12, 20, 27, 44, 48, 49, 49],
+    })
+
+Datos para aprox PL
+     'Set': ["5.txt", "7.txt", "10p.txt", "10t.txt", "15.txt", "20.txt", "50.txt", "75.txt", "100.txt",],
+     'Óptimo': [2, 2, 3, 10, 4, 5, 6, 8, 9],
+     'Aproximación': [2, 2, 6, 10, 11, 12, 13, 20, 23],
+     'b': [6, 6, 7, 4, 7, 7, 8, 8, 8],
+     'Cota': [12, 12, 21, 40, 28, 35, 48, 64, 72],
+"""
