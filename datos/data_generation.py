@@ -14,6 +14,7 @@ def recortar_aleatoriamente_los_jugadores_de_a(max_jugadores, jugadores_posibles
             jugadores_posibles.remove(random.choice(jugadores_posibles))
     return jugadores_posibles
 
+
 def tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b, cantidad_a):
     cantidad_de_jugadores = random.randint(min_tamaño_b, max_tamaño_b)
     #hago que sean poco probables los subconjuntos pequeños
@@ -34,6 +35,7 @@ def tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b, cantidad_a):
                     cantidad_de_jugadores = random.randint(1, cantidad_a-1)
     return cantidad_de_jugadores
 
+
 def crear_subconjunto_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles, jugadores_posibles : list):
     subconjunto = []
     #jug = tamaño_aleatorio_de_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles) # Esta función se traba a veces.
@@ -43,6 +45,7 @@ def crear_subconjunto_b(min_tamaño_b,max_tamaño_b,cantidad_jugadores_posibles,
         subconjunto.append(random.choice(jugadores_posibles))
     return subconjunto
 
+
 def crear_cadena_b(subconjunto_b):
     cadena = ''
     #escribo
@@ -51,6 +54,7 @@ def crear_cadena_b(subconjunto_b):
     cadena = cadena[:-1]
     cadena = cadena + '\n'
     return cadena
+
 
 def crear_problem_data(listado_jugadores_file, cantidad_de_sets, min_jugadores_por_set = 1):
     jugadores_posibles = []
@@ -96,6 +100,7 @@ def guardar_subconjuntos_b_en_archivo(data: ProblemData, archivo_salida):
         cadena = crear_cadena_b(subset)
         salida.write(cadena)
     
+
 def crear_varios_data_sets(nomenclatura: str, cantidad_data, b_inicial, incremento, cantidad_a_min = 2, cantidad_a_max = 200, min_tamaño_b = 1):
     b_actual = b_inicial
     for i in range(0,cantidad_data): 
@@ -112,5 +117,6 @@ def multiplicar_jugadores():
         for i in range(1,10):
             multiplicao.write(str(i)+linea)
 
-crear_varios_data_sets('PL20', 1, 2000, 500, 100)
 
+if __name__ == "__main__":
+    crear_varios_data_sets('PL20', 1, 2000, 500, 100)
