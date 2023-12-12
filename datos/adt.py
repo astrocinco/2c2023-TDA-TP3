@@ -1,5 +1,4 @@
 # Abstract Data Types
-
 class ProblemData:
     def __init__(self, A_set: set, B_subsets: dict):
         self.A_set = A_set
@@ -13,5 +12,4 @@ class ProblemData:
     
     def players_as_list(self):
         return list(self.A_set)
-    
     

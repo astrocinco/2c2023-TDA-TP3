@@ -10,13 +10,11 @@ def main():
     solucion = sys.argv[2]
 
     problem_data = map_txt(archivo_set_datos)
-    #print("Problem data:", problem_data)
 
     if solucion == "-bt":
         print("Ejecutando solución por backtracking")
         n, players_convoked = solution_by_backtracking(problem_data)
 
-    
     elif solucion == "-lp":
         print("Ejecutando solución por programación lineal")
         n, players_convoked = solution_by_lineal_programming(problem_data)

@@ -31,11 +31,11 @@ def solution_by_backtracking(data : ProblemData):
 
         if hay_solucion:
             minimo_numero_elegidos_valido = numero_elegidos_actual
-            #con el n que probó antes no habia encontrado solucion y con este sí
+            #Con el n que probó antes no habia encontrado solucion y con este sí
             if numero_elegidos_iter_anterior < minimo_numero_elegidos_valido: 
                 numero_elegidos_actual = (numero_elegidos_iter_anterior + numero_elegidos_actual) // 2  
             
-            #con el anterior habia solucion y con este tambien
+            #Con el anterior habia solucion y con este tambien
             else:
                 if maximo_numero_fallido != 0: 
                     numero_elegidos_actual = maximo_numero_fallido + 1
@@ -47,13 +47,13 @@ def solution_by_backtracking(data : ProblemData):
             
         else:
             maximo_numero_fallido = numero_elegidos_actual
-            #con el anterior no habia solucion y con este tampoco
+            #Con el anterior no habia solucion y con este tampoco
             if minimo_numero_elegidos_valido == 0 or numero_elegidos_iter_anterior < minimo_numero_elegidos_valido:
                 if minimo_numero_elegidos_valido > 0: 
                     numero_elegidos_actual = minimo_numero_elegidos_valido - 1
                 else: 
                     numero_elegidos_actual = numero_elegidos_actual * 2  
-            #con el anterior habia solucion y con este no
+            #Con el anterior habia solucion y con este no
             else: 
                 numero_elegidos_actual = (numero_elegidos_iter_anterior + numero_elegidos_actual) // 2         
         numero_elegidos_iter_anterior = aux_numero_elegidos_actual
