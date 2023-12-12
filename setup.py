@@ -21,14 +21,14 @@ def crear_diccionario_periodistas(datos):
     
     return periodistas
 
+
 def ordenar_diccionario(diccionario):
     diccionario_ordenado = dict(sorted(diccionario.items(), key=lambda item: len(item[1])))
     return diccionario_ordenado
 
+
 def setup_instancia_BT(datos):
     periodistas = crear_diccionario_periodistas(datos)
-    return ordenar_diccionario(periodistas) 
-
-##testing
-
-
+    diccionario = ordenar_diccionario(periodistas) 
+    print ("Diccionario:", diccionario)
+    return diccionario

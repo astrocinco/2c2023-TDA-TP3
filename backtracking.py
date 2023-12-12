@@ -1,13 +1,11 @@
-import setup as s
+import setup
 import time
 import sys
 sys.path.insert(1, '')
 from datos.adt import ProblemData
 from datos.data_processing import map_txt
 
-ARCHIVO_PRUEBA = "datos/sets_catedra/200.txt"
-N_MINIMO = 2
-            
+
 def chequear_solucion(periodistas : dict, convocados :set):   
     aux = set()
     for convocado in convocados:
@@ -19,87 +17,85 @@ def chequear_solucion(periodistas : dict, convocados :set):
 
 
 def solution_by_backtracking(data : ProblemData):
-    n_actual = len(data.B_subsets.keys())
-    n_anterior = 0
-    minimo_n = 0
-    ultimo_nulo = 0
-    paro = 2
+    numero_elegidos_actual = len(data.B_subsets.keys())
+    numero_elegidos_iter_anterior = 0
+    minimo_numero_elegidos_valido = 0
+    maximo_numero_fallido = 0
+    diferencia_fallido_y_minimo_valido = 2
+    dicc_ordenado = setup.ordenar_diccionario(data.B_subsets)
 
-    while paro > 1:
-        #time.sleep(2)
-        posibles = set()
-        hay_solucion = backtracking_recursivo(data.B_subsets, posibles,n_actual)
-        aux_n = n_actual
+    while diferencia_fallido_y_minimo_valido != 1:
+        posibles_convocados = set()
+        hay_solucion = backtracking_recursivo(dicc_ordenado, posibles_convocados, numero_elegidos_actual)
+        aux_numero_elegidos_actual = numero_elegidos_actual
 
-        if hay_solucion == True:
-            minimo_n = n_actual
+        if hay_solucion:
+            minimo_numero_elegidos_valido = numero_elegidos_actual
             #con el n que probó antes no habia encontrado solucion y con este sí
-            if n_anterior < minimo_n: n_actual = (n_anterior+n_actual)//2  
+            if numero_elegidos_iter_anterior < minimo_numero_elegidos_valido: 
+                numero_elegidos_actual = (numero_elegidos_iter_anterior + numero_elegidos_actual) // 2  
             
             #con el anterior habia solucion y con este tambien
             else:
-                if ultimo_nulo != 0: n_actual = ultimo_nulo+1
-                else: n_actual = n_actual//2
+                if maximo_numero_fallido != 0: 
+                    numero_elegidos_actual = maximo_numero_fallido + 1
+                else: 
+                    numero_elegidos_actual = numero_elegidos_actual // 2
             
-            n_anterior = aux_n
-            convocados = posibles        
+            numero_elegidos_iter_anterior = aux_numero_elegidos_actual
+            convocados_definitivos = posibles_convocados        
             
         else:
-            ultimo_nulo = n_actual
+            maximo_numero_fallido = numero_elegidos_actual
             #con el anterior no habia solucion y con este tampoco
-            if minimo_n == 0 or n_anterior < minimo_n:
-                if minimo_n > 0: n_actual = minimo_n - 1
-                else: n_actual = n_actual * 2  
+            if minimo_numero_elegidos_valido == 0 or numero_elegidos_iter_anterior < minimo_numero_elegidos_valido:
+                if minimo_numero_elegidos_valido > 0: 
+                    numero_elegidos_actual = minimo_numero_elegidos_valido - 1
+                else: 
+                    numero_elegidos_actual = numero_elegidos_actual * 2  
             #con el anterior habia solucion y con este no
-            else: n_actual = (n_anterior+n_actual)//2         
-        n_anterior = aux_n
+            else: 
+                numero_elegidos_actual = (numero_elegidos_iter_anterior + numero_elegidos_actual) // 2         
+        numero_elegidos_iter_anterior = aux_numero_elegidos_actual
         
-        if ultimo_nulo != 0 and minimo_n != 0: paro = abs(ultimo_nulo - minimo_n)
-        if ultimo_nulo == 0 and minimo_n == 1: paro = 1
+        diferencia_fallido_y_minimo_valido = abs(maximo_numero_fallido - minimo_numero_elegidos_valido)
  
-    return minimo_n,convocados
+    return minimo_numero_elegidos_valido, convocados_definitivos
 
 
-######### SEGUNDA IDEA ##############
-
-def backtracking_recursivo(periodistas:dict, convocados:set, n_minimo = 100):
-
+def backtracking_recursivo(periodistas:dict, convocados:set, n_minimo):
     if len(periodistas.keys()) == 0: 
         return True
     if len(convocados) == n_minimo: 
         return False
     
     eliminados = {}
-    siguiente = next(iter(periodistas.items()))
-    aux = periodistas.copy()
+    siguiente_periodista = next(iter(periodistas.items())) 
+    dicc_periodistas_copia = periodistas.copy()
     
-    for jugador in siguiente[1]:
+    for jugador in siguiente_periodista[1]:
         convocados.add(jugador)
         for periodista in periodistas:
-            if jugador in periodistas[periodista]: eliminados[periodista] = aux.pop(periodista)
+            if jugador in periodistas[periodista]: 
+                eliminados[periodista] = dicc_periodistas_copia.pop(periodista)
 
-        if backtracking_recursivo(aux, convocados, n_minimo): 
+        if backtracking_recursivo(dicc_periodistas_copia, convocados, n_minimo): 
             return True
 
-        #si no es solucion, vuelvo para atras
+        #Si no es solucion, vuelvo para atras
         convocados.remove(jugador)
-        devolver_periodistas(aux,eliminados)   
+        devolver_periodistas(dicc_periodistas_copia, eliminados)   
     return False
-        
+
+
 def devolver_periodistas(periodistas:dict, eliminados:dict):
     periodistas.update(eliminados)
-    s.ordenar_diccionario(periodistas)
+    setup.ordenar_diccionario(periodistas)
     return periodistas
 
 
-
-### TESTING ###
-""" if __name__ == "__main__":
-    periodistas = s.crear_diccionario_periodistas(ARCHIVO_PRUEBA)
-    print(periodistas) """
-
 if __name__ == "__main__":
-    archivo = "datos/sets_propios/400.txt"
+    archivo = "datos/sets_catedra/7.txt"
     problem_data = map_txt(archivo)
     print("Problem data:", problem_data)
     n, players_convoked = solution_by_backtracking(problem_data)
